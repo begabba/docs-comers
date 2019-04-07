@@ -1,0 +1,30 @@
+site_name: Comers Documentation
+site_description: 'Documentation'
+site_author: 'Erik'
+site_url: ''
+
+repo_name: 'docs-comers'
+repo_url: 'https://github.com/gitx-xx/docs-comers.git'
+# copyright: 'Copyright &copy; 2019'
+
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'Blue grey'
+    accent: 'Blue grey'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+  logo: 'images/logo.svg'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+#   - codehilite:
+#       guess_lang: false
