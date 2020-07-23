@@ -4,7 +4,7 @@ site_author: "Erik"
 site_url: ""
 
 repo_name: "docs-comers"
-repo_url: "https://github.com/gitx-xx/docs-comers.git"
+repo_url: "https://github.com/gitx-xx/docs-comers/"
 # copyright: 'Copyright &copy; 2020'
 
 theme:
