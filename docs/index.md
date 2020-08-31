@@ -5,5 +5,6 @@
 
 * [**Create a new event**](./create-a-new-event/00. Introduction.md)
 * [**Refund**](./refund/00. Refund.md)
+* [**Glossary**](./glossary.md)
 
 
