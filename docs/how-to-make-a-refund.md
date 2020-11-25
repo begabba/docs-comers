@@ -1,4 +1,4 @@
-# Refund
+# Cancel and refund booking
 
 _This guide contains a step-by-step instruction on how to make
 a refund of a booking in Comers with PayEx/SwedbankPay._
@@ -39,11 +39,12 @@ according to the booking policies (
 - Set `--- State reason for cancellation ---` to `According agreement` or `Free`. If cancellation fee apply use `According agreement`
 - Click button `Confirm Cancel`
 - Go to the **Payments** tab
-- In the section **Registrered payments**
+- In the section **Registrered payments**:
   - Make note of the **Payment date** & the **Reference** number
 
 !!! Note
-_We'll use the **Payment date** and **Reference** number to find the payment in PayEx/SwedbankPay_.
+
+> _We'll use the **Payment date** and **Reference** number to find the payment in PayEx/SwedbankPay_.
 
 **[⬆ Back to Top](#overview)**
 
@@ -66,7 +67,8 @@ If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.p
 - Click button `OK`
 
 !!! Note
-"Transaction is credited" should show at the bottom of the page.
+
+> "Transaction is credited" should show at the bottom of the page.
 
 **[⬆ Back to Top](#overview)**
 
@@ -82,18 +84,19 @@ If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.p
 - Click `Reverse Payment`
 
 !!! Note
-"Reversal completed successfully" should show on top of the page.
+
+> "Reversal completed successfully" should show on top of the page.
 
 **[⬆ Back to Top](#overview)**
 
 ### Comers
 
-#### Register refund manually
-
 _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll need to register the refund manually._
 
+#### Register refund manually
+
 - Go to the **Payments** tab
-- In the section **Register payment manually**
+- In the section **Register payment manually**:
   - Set `Amount` to **Remains to be paid**
   - Set `Way of payment` to same as original payment in **Registered payments**
   - Set `Reference` to _reason for refund_
@@ -104,14 +107,15 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
 #### Contact customer
 
 - Go to the **Contact** tab
-- In the section **E-post**
+- In the section **E-post**:
   - Set `--- Select a message on the customers language ---` to `Customer Cancellation & Refund`
-- In the section **Attach files**
+- In the section **Attach files**:
   - Make sure neccessary attachments are included
 - Click button `Send` in section **E-post**
 
 !!! Note
-The email templates might look different if booking contact language is Swedish.
+
+> The email templates might look different if booking contact language is Swedish.
 
 **[⬆ Back to Top](#overview)**
 
