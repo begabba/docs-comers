@@ -8,8 +8,8 @@ a refund of a booking in Comers with PayEx/SwedbankPay._
 Before you proceed make sure to have the necessary credentials
 
 - [**Comers**](https://adminang.comers.se)
-- [**PayEx**](https://secure.payex.com/Admin/Logon.aspx)
-- [**SwedbankPay**](https://admin.payex.com/psp/login)
+- [**PayEx** (older transactions)](https://secure.payex.com/Admin/Logon.aspx)
+- [**SwedbankPay** (newer transactions)](https://admin.payex.com/psp/login)
 - [**REFUND spreadsheet**](https://docs.google.com/spreadsheets/d/11JW8NCPnV5h49dYcMxpH6dfmC2V1dVvGJWCkPWrYnb4/edit#gid=0)
 
 ## Overview
@@ -48,9 +48,13 @@ according to the booking policies (
 
 **[⬆ Back to Top](#overview)**
 
+---
+
 ### PayEx/SwedbankPay
 
 If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.payex.com/Admin/Logon.aspx) otherwise use [**SwedbankPay**](https://admin.payex.com/psp/login). Please note that both PayEx and SwedbankPay currently shows the same PayEx logo.
+
+You'll need a _reason for refund._ When in doubt use _"Course cancellation"_ of something else that makes sense.
 
 #### Refund via PayEx
 
@@ -62,7 +66,7 @@ If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.p
 - Copy the current url in your browser and store it for later
 - Click button `Credit` in the button of the page
 - Set `Partial credit?` to checked
-- Set `Amount` to **Remains to be paid** without the minus(-) symbol
+- Set `Amount` to equal **Outstanding amount to pay** without the minus(-) symbol
 - Set `Comment` to _reason for refund_
 - Click button `OK`
 
@@ -79,7 +83,7 @@ If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.p
 - Open the payment details
 - Copy the current url in your browser and store it for later
 - Click button `Reversal`
-- Set `AMOUNT TO REVERSE` to **Remains to be paid**
+- Set `AMOUNT TO REVERSE` to equal **Outstanding amount to pay** without the minus(-) symbol (_default_)
 - Set `Description` to _reason for refund_
 - Click `Reverse Payment`
 
@@ -89,6 +93,8 @@ If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.p
 
 **[⬆ Back to Top](#overview)**
 
+---
+
 ### Comers
 
 _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll need to register the refund manually._
@@ -97,20 +103,23 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
 
 - Go to the **Payments** tab
 - In the section **Register payment manually**:
-  - Set `Amount` to **Remains to be paid**
+  - Set `Amount` to **Remains to be paid** (_default_)
   - Set `Way of payment` to same as original payment in **Registered payments**
   - Set `Reference` to _reason for refund_
   - Click button `Register payment`
 
 **[⬆ Back to Top](#overview)**
 
+---
+
 #### Contact customer
 
 - Go to the **Contact** tab
 - In the section **E-post**:
+  - Verify `Sender` makes sense.
   - Set `--- Select a message on the customers language ---` to `Customer Cancellation & Refund`
 - In the section **Attach files**:
-  - Make sure neccessary attachments are included
+  - Make sure neccessary attachments are included, if any.
 - Click button `Send` in section **E-post**
 
 !!! Note
@@ -119,6 +128,8 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
 
 **[⬆ Back to Top](#overview)**
 
+---
+
 ### Log the transaction
 
 _Final step is to log the transaction in a Spreadsheet._
@@ -126,8 +137,14 @@ _Final step is to log the transaction in a Spreadsheet._
 - Open [**REFUND**](https://docs.google.com/spreadsheets/d/11JW8NCPnV5h49dYcMxpH6dfmC2V1dVvGJWCkPWrYnb4/edit#gid=0) spreadsheet
 - Fill **all** columns on a new row.
 
+---
+
+### Celebrate
+
+**Congratulations!** You're truly a beautiful flower that brings joy to this world.
+
+_Now, let's do another one._
+
 **[⬆ Back to Top](#overview)**
 
 ---
-
-_**Status OK**. You're such a beautiful flower._
