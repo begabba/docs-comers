@@ -352,6 +352,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#celebrate" class="md-nav__link">
+    Celebrate
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -650,6 +657,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#celebrate" class="md-nav__link">
+    Celebrate
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -679,8 +693,8 @@ a refund of a booking in Comers with PayEx/SwedbankPay.</em></p>
 <p>Before you proceed make sure to have the necessary credentials</p>
 <ul>
 <li><a href="https://adminang.comers.se"><strong>Comers</strong></a></li>
-<li><a href="https://secure.payex.com/Admin/Logon.aspx"><strong>PayEx</strong></a></li>
-<li><a href="https://admin.payex.com/psp/login"><strong>SwedbankPay</strong></a></li>
+<li><a href="https://secure.payex.com/Admin/Logon.aspx"><strong>PayEx</strong> (older transactions)</a></li>
+<li><a href="https://admin.payex.com/psp/login"><strong>SwedbankPay</strong> (newer transactions)</a></li>
 <li><a href="https://docs.google.com/spreadsheets/d/11JW8NCPnV5h49dYcMxpH6dfmC2V1dVvGJWCkPWrYnb4/edit#gid=0"><strong>REFUND spreadsheet</strong></a></li>
 </ul>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
@@ -716,8 +730,10 @@ according to the booking policies (
 <p><em>We'll use the <strong>Payment date</strong> and <strong>Reference</strong> number to find the payment in PayEx/SwedbankPay</em>.</p>
 </blockquote>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong></p>
+<hr />
 <h3 id="payexswedbankpay">PayEx/SwedbankPay<a class="headerlink" href="#payexswedbankpay" title="Permanent link">&para;</a></h3>
 <p>If <strong>Payment date</strong> is <em>earlier</em> than 18.06.20 open <a href="https://secure.payex.com/Admin/Logon.aspx"><strong>PayEx</strong></a> otherwise use <a href="https://admin.payex.com/psp/login"><strong>SwedbankPay</strong></a>. Please note that both PayEx and SwedbankPay currently shows the same PayEx logo.</p>
+<p>You'll need a <em>reason for refund.</em> When in doubt use <em>"Course cancellation"</em> of something else that makes sense.</p>
 <h4 id="refund-via-payex">Refund via PayEx<a class="headerlink" href="#refund-via-payex" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Click menu <code>Transaction search</code></li>
@@ -728,7 +744,7 @@ according to the booking policies (
 <li>Copy the current url in your browser and store it for later</li>
 <li>Click button <code>Credit</code> in the button of the page</li>
 <li>Set <code>Partial credit?</code> to checked</li>
-<li>Set <code>Amount</code> to <strong>Remains to be paid</strong> without the minus(-) symbol</li>
+<li>Set <code>Amount</code> to equal <strong>Outstanding amount to pay</strong> without the minus(-) symbol</li>
 <li>Set <code>Comment</code> to <em>reason for refund</em></li>
 <li>Click button <code>OK</code></li>
 </ul>
@@ -746,7 +762,7 @@ according to the booking policies (
 <li>Open the payment details</li>
 <li>Copy the current url in your browser and store it for later</li>
 <li>Click button <code>Reversal</code></li>
-<li>Set <code>AMOUNT TO REVERSE</code> to <strong>Remains to be paid</strong></li>
+<li>Set <code>AMOUNT TO REVERSE</code> to equal <strong>Outstanding amount to pay</strong> without the minus(-) symbol (<em>default</em>)</li>
 <li>Set <code>Description</code> to <em>reason for refund</em></li>
 <li>Click <code>Reverse Payment</code></li>
 </ul>
@@ -757,25 +773,28 @@ according to the booking policies (
 <p>"Reversal completed successfully" should show on top of the page.</p>
 </blockquote>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong></p>
+<hr />
 <h3 id="comers_1">Comers<a class="headerlink" href="#comers_1" title="Permanent link">&para;</a></h3>
 <p><em>Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll need to register the refund manually.</em></p>
 <h4 id="register-refund-manually">Register refund manually<a class="headerlink" href="#register-refund-manually" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Go to the <strong>Payments</strong> tab</li>
 <li>In the section <strong>Register payment manually</strong>:</li>
-<li>Set <code>Amount</code> to <strong>Remains to be paid</strong></li>
+<li>Set <code>Amount</code> to <strong>Remains to be paid</strong> (<em>default</em>)</li>
 <li>Set <code>Way of payment</code> to same as original payment in <strong>Registered payments</strong></li>
 <li>Set <code>Reference</code> to <em>reason for refund</em></li>
 <li>Click button <code>Register payment</code></li>
 </ul>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong></p>
+<hr />
 <h4 id="contact-customer">Contact customer<a class="headerlink" href="#contact-customer" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Go to the <strong>Contact</strong> tab</li>
 <li>In the section <strong>E-post</strong>:</li>
+<li>Verify <code>Sender</code> makes sense.</li>
 <li>Set <code>--- Select a message on the customers language ---</code> to <code>Customer Cancellation &amp; Refund</code></li>
 <li>In the section <strong>Attach files</strong>:</li>
-<li>Make sure neccessary attachments are included</li>
+<li>Make sure neccessary attachments are included, if any.</li>
 <li>Click button <code>Send</code> in section <strong>E-post</strong></li>
 </ul>
 <div class="admonition note">
@@ -785,15 +804,19 @@ according to the booking policies (
 <p>The email templates might look different if booking contact language is Swedish.</p>
 </blockquote>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong></p>
+<hr />
 <h3 id="log-the-transaction">Log the transaction<a class="headerlink" href="#log-the-transaction" title="Permanent link">&para;</a></h3>
 <p><em>Final step is to log the transaction in a Spreadsheet.</em></p>
 <ul>
 <li>Open <a href="https://docs.google.com/spreadsheets/d/11JW8NCPnV5h49dYcMxpH6dfmC2V1dVvGJWCkPWrYnb4/edit#gid=0"><strong>REFUND</strong></a> spreadsheet</li>
 <li>Fill <strong>all</strong> columns on a new row.</li>
 </ul>
+<hr />
+<h3 id="celebrate">Celebrate<a class="headerlink" href="#celebrate" title="Permanent link">&para;</a></h3>
+<p><strong>Congratulations!</strong> You're truly a beautiful flower that brings joy to this world.</p>
+<p><em>Now, let's do another one.</em></p>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong></p>
 <hr />
-<p><em><strong>Status OK</strong>. You're such a beautiful flower.</em></p>
                 
               
               
