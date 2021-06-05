@@ -1,10 +1,11 @@
-# Welcome
+# Welcome  
 
-!!! Warning
+Here's some Comers related how-to guides I don't want to write twice.  
+**Feel free to bookmark this page.**  
 
-> **This index does not have any content at the moment. It's sole purpose is to make This easier to extend in the future.**
+- [**Create a new event**](./create-a-new-event/00. Introduction.md)  
+- [**Cancel an event**](./cancel-event/00.%20Cancel%20an%20event.md)  
+- [**Refund a booking**](./refund-a-booking.md)  
+- [**Transfer booking to another event**](./transfer-booking-to-another-event.md)  
 
-- [**Create a new event**](./create-a-new-event/00. Introduction.md)
-- [**Refund**](./how-to-make-a-refund.md)
-- [**Cancel an event**](./cancel-event/00.%20Cancel%20an%20event.md)
-<!-- * [**Glossary**](./glossary.md) -->
+<!-- * [**Glossary**](./glossary.md) -->  

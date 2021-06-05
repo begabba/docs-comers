@@ -30,15 +30,13 @@ Before you proceed make sure to have the necessary credentials
 
 ### Comers  
 
-_Before you proceed make sure you're aware of any cancellations fees  
-according to the booking policies (  
-[Course/Retreat](https://www.angsbacka.com/about-angsbacka/course-retreat-booking-policy/),  
-[Festival](https://www.angsbacka.com/about-angsbacka/festival-ticket-policy/),  
-[Conscious Camping](https://www.angsbacka.com/about-angsbacka/conscious-camping-booking-policy/))._  
+_Make sure you're aware of any administration/cancellation fees according to the booking policies:_  
+ - [Course/Retreat](https://www.angsbacka.com/about-angsbacka/course-retreat-booking-policy/)  
+ - [Festival](https://www.angsbacka.com/about-angsbacka/festival-ticket-policy/)  
+
+_If original payment was made with Swish, stop here and consult Erik or Malin_  
 
 #### Cancel the booking  
-
-**If original payment was made with Swish, stop here and consult Erik or Malin**  
 
 - Go to booking  
 - Click button `Cancel` in the bottom of the page  
@@ -46,7 +44,7 @@ according to the booking policies (
 - Click button `Confirm Cancel`  
 - Go to the **Payments** tab  
 - In the section **Registrered payments**:  
-  - Make note of the **Payment date** & the **Reference** number  
+    - Make note of the **Payment date** & the **Reference** number  
 
 !!! Note  
 
@@ -108,11 +106,14 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
 #### Register refund manually  
 
 - Go to the **Payments** tab  
-- In the section **Register payment manually**:  
-  - Set `Amount` to **Remains to be paid** (_default_)  
-  - Set `Way of payment` to same as original payment in **Registered payments**  
-  - Set `Reference` to _reason for refund_  
-  - Click button `Register payment`  
+  - In the section **Register payment manually**:  
+      - Set `Amount` to **Remains to be paid** (_default_)  
+      - Set `Way of payment` to same as original payment in **Registered payments**  
+      - Set `Reference` to _reason for refund_  
+      - Click button `Register payment`  
+- Go to the **Booking cart** tab  
+    - Click button `Create reciept` (if possible)  
+    - Click button `Create itinerary` (if possible)  
 
 **[⬆ Back to Top](#overview)**  
 
@@ -121,12 +122,12 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
 #### Contact customer  
 
 - Go to the **Contact** tab  
-- In the section **E-post**:  
-  - Verify `Sender` makes sense.  
-  - Set `--- Select a message on the customers language ---` to `Customer Cancellation & Refund`  
-- In the section **Attach files**:  
-  - Make sure neccessary attachments are included, if any.  
-- Click button `Send` in section **E-post**  
+    - In the section **E-post**:  
+        - Verify `Sender` makes sense.  
+        - Set `--- Select a message on the customers language ---` to `Customer Cancellation & Refund`  
+    - In the section **Attach files**:  
+        - Make sure neccessary attachments are included, if any.  
+    - Click button `Send` in section **E-post**  
 
 !!! Note  
 
