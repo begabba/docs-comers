@@ -4,8 +4,7 @@ _This guide contains a step-by-step instruction on how to make
 a refund of a booking in Comers with PayEx/SwedbankPay._  
 
 !!! Warning  
-> Only limited support for refunding Swish payments.  
-> **Make sure the original bookings wasn't made with Swish**  
+> If original payment was made with Swish, stop here and consult Erik or Malin  
 
 ## Prerequisites  
 
@@ -32,9 +31,8 @@ Before you proceed make sure to have the necessary credentials
 
 _Make sure you're aware of any administration/cancellation fees according to the booking policies:_  
  - [Course/Retreat](https://www.angsbacka.com/about-angsbacka/course-retreat-booking-policy/)  
- - [Festival](https://www.angsbacka.com/about-angsbacka/festival-ticket-policy/)  
+ - [Festivals](https://www.angsbacka.com/about-angsbacka/festival-ticket-policy/)  
 
-_If original payment was made with Swish, stop here and consult Erik or Malin_  
 
 #### Cancel the booking  
 

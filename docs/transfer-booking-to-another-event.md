@@ -2,7 +2,6 @@
 
 _This guide contains a step-by-step instruction on how to make transfer a booking to another event._  
 
-
 ## Overview  
 
 - [Change Project](#change-project)  
@@ -15,19 +14,26 @@ _This guide contains a step-by-step instruction on how to make transfer a bookin
 
 ## Prerequisites  
 
-Before you proceed make sure to have the necessary credentials  
+Before you proceed make sure to have the necessary credentials:  
 
 - [**Comers**](https://adminang.comers.se)  
-- If the price for the new event is lower than the old event you'll also need the prerequisites from [**How to make a refund**](./how-to-make-a-refund.md)  
+- If the price for the new event is lower than the old event you'll also need the prerequisites from [**How to make a refund**](./refund-a-booking.md)  
 
 You'll also need:  
-  - The __exact__ name of the new event. Let's call it `$EVENTNAME`  
-  - The starting date of $EVENTNAME in Comers format (_13.01.21_). Let's call it `$DATE_FROM`  
-  - The ending date of $EVENTNAME in Comers format (_23.01.21_). Let's call it `$DATE_TO`  
+
+- The __exact__ name of the new event. Let's call it `$EVENTNAME`  
+- The starting date of `$EVENTNAME` in Comers format (_13.01.21_). Let's call it `$DATE_FROM`  
+- The ending date of `$EVENTNAME` in Comers format (_23.01.21_). Let's call it `$DATE_TO`  
 
 _Make sure you're aware of any administration/cancellation fees according to the booking policies:_  
- - [Course/Retreat](https://www.angsbacka.com/about-angsbacka/course-retreat-booking-policy/)  
- - [Festival](https://www.angsbacka.com/about-angsbacka/festival-ticket-policy/)  
+
+- [Course/Retreat](https://www.angsbacka.com/about-angsbacka/course-retreat-booking-policy/)  
+- [Festivals](https://www.angsbacka.com/about-angsbacka/festival-ticket-policy/)  
+
+!!! Warning  
+> If original payment was made with Swish, stop here and consult Erik or Malin  
+
+---  
 
 ## Detailed instruction  
 
@@ -43,10 +49,12 @@ _Make sure you're aware of any administration/cancellation fees according to the
 
 _You're doing great!_  
 
+---  
+
 ### Change Arrangement  
 
 - Scroll to the bottom of the booking.  
-- Move mouse over __speech bubble__ on the yellow row.  
+- Move mouse over __speech bubble__ on the <span style="background-color: #FFFFC0">yellow row</span>.  
 ![Change Arrangement](images/change-arrangement.png)  
 - Click menu item `Ändra produkt` _(Change product)_  
 - Set `Change to product` to `$EVENTNAME`  
@@ -63,12 +71,14 @@ _You're doing great!_
 
 **[⬆ Back to Top](#overview)**  
 
+---  
+
 ### Change Accommodation  
 
 This is pretty similar to what we did in [Change Arrangement](#change-arrangement)  
 
 - Scroll to the bottom of the booking page.  
-- Move mouse over __speech bubble__ on the green row.  
+- Move mouse over __speech bubble__ on the <span style="background-color: #C0FFC0">green row</span>.  
 ![Change Accommodation](images/change-accommodation.png)  
 - Click menu item `Ändra produkt` _(Change product)_  
 - _OPTIONAL_: Set `Change to product` to customer preference  
@@ -85,6 +95,8 @@ _You're doing great!_
 
 **[⬆ Back to Top](#overview)**  
 
+---  
+
 ### Add administration fee  
 
 If you need to add any fee according to our booking policies:  
@@ -100,6 +112,8 @@ If you need to add any fee according to our booking policies:
 
 **[⬆ Back to Top](#overview)**  
 
+---  
+
 ### Update payment  
 
 If you haven't already, click button `Confirm` in the bottom of the booking page.  
@@ -109,7 +123,7 @@ The changes we've made might've changed to `Remains to be paid:`.
 
 - Scroll to top of the booking page  
 - if `Remains to be paid:` is a negative number:  
-  - Follow the guide on [**How to make a refund**](./how-to-make-a-refund.md)  
+  - Follow the guide on [**How to make a refund**](./refund-a-booking.md)  
 - if `Remains to be paid:` is a positive number:  
   - Go to the **Contact** tab  
     - In the section **E-post**:  
@@ -121,6 +135,8 @@ The changes we've made might've changed to `Remains to be paid:`.
     - Click button `Send` in section **E-post**  
 
 **[⬆ Back to Top](#overview)**  
+
+---  
 
 ### Celebrate  
 
