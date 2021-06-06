@@ -123,16 +123,16 @@ The changes we've made might've changed to `Remains to be paid:`.
 
 - Scroll to top of the booking page  
 - if `Remains to be paid:` is a negative number:  
-  - Follow the guide on [**How to make a refund**](./refund-a-booking.md)  
+    - Follow the guide on [**How to make a refund**](./refund-a-booking.md)  
 - if `Remains to be paid:` is a positive number:  
-  - Go to the **Contact** tab  
-    - In the section **E-post**:  
-        - Verify `Sender` makes sense.  
-        - Set `--- Select a message on the customers language ---` to `Payment reminder`  
-        - Update the message but keep the "My booking" link  
-    - In the section **Attach files**:  
-        - Make sure neccessary attachments are included, if any.  
-    - Click button `Send` in section **E-post**  
+    - Go to the **Contact** tab  
+        - In the section **E-post**:  
+            - Verify `Sender` makes sense.  
+            - Set `--- Select a message on the customers language ---` to `Payment reminder`  
+            - Update the message but keep the "My booking" link  
+        - In the section **Attach files**:  
+            - Make sure neccessary attachments are included, if any.  
+        - Click button `Send` in section **E-post**  
 
 **[⬆ Back to Top](#overview)**  
 
