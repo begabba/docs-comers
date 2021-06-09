@@ -22,7 +22,7 @@ You'll also need:
 
 !!! Important  
     Make sure you **don't have** any booking active. If you see this box you've unsaved changes and need to `Confirm` or `Undo` those changes before continuing.  
-    ![00](./images/manual-booking-00.png)  
+    ![00](./images/active-booking.png)  
 
 ## Overview  
 
