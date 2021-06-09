@@ -1,6 +1,7 @@
 # Create booking for passed event  
 
 _Comers Packages aren't bookable once the event has started._  
+_This guide shows how to create a manual booking to create a payment link._  
 
 ## Prerequisites  
 
@@ -11,8 +12,8 @@ Before you proceed make sure to have the necessary credentials
 You'll also need:  
 
 - The __exact__ name of the event. Let's call it `$EVENTNAME`  
-- The starting date of `$EVENTNAME` in Comers format (_13.01.21_). Let's call it `$DATE_FROM`  
-- The ending date of `$EVENTNAME` in Comers format (_23.01.21_). Let's call it `$DATE_TO`  
+- The starting date of `$EVENTNAME`  
+- The ending date of `$EVENTNAME`  
 - The customer first name.  
 - The customer last name.  
 - The customer email.  
