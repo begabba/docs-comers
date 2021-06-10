@@ -331,15 +331,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#refund-via-payex" class="md-nav__link">
-    Refund via PayEx
+  <a href="#refund-via-payex-older-payments" class="md-nav__link">
+    Refund via PayEx (older payments)
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#refund-via-swedbankpay" class="md-nav__link">
-    Refund via SwedbankPay
+  <a href="#refund-via-swedbankpay-newer-payments" class="md-nav__link">
+    Refund via SwedbankPay (newer payments)
   </a>
   
 </li>
@@ -662,15 +662,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#refund-via-payex" class="md-nav__link">
-    Refund via PayEx
+  <a href="#refund-via-payex-older-payments" class="md-nav__link">
+    Refund via PayEx (older payments)
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#refund-via-swedbankpay" class="md-nav__link">
-    Refund via SwedbankPay
+  <a href="#refund-via-swedbankpay-newer-payments" class="md-nav__link">
+    Refund via SwedbankPay (newer payments)
   </a>
   
 </li>
@@ -796,8 +796,8 @@ a refund of a booking in Comers with PayEx/SwedbankPay.</em>  </p>
 <hr />
 <h3 id="payexswedbankpay">PayEx/SwedbankPay<a class="headerlink" href="#payexswedbankpay" title="Permanent link">&para;</a></h3>
 <p>If <strong>Payment date</strong> is <em>earlier</em> than 18.06.20 open <a href="https://secure.payex.com/Admin/Logon.aspx"><strong>PayEx</strong></a> otherwise use <a href="https://admin.payex.com/psp/login"><strong>SwedbankPay</strong></a>. Please note that both PayEx and SwedbankPay currently shows the same PayEx logo.  </p>
-<p>You'll need a <em>reason for refund.</em> When in doubt use <em>"Event cancellation"</em> or something else that makes sense.  </p>
-<h4 id="refund-via-payex">Refund via PayEx<a class="headerlink" href="#refund-via-payex" title="Permanent link">&para;</a></h4>
+<p>You'll need a <em>reason for refund</em>. Let's call it <code>$REASON</code>. When in doubt use <em>"Event cancellation"</em> or something else that makes sense.  </p>
+<h4 id="refund-via-payex-older-payments">Refund via PayEx (older payments)<a class="headerlink" href="#refund-via-payex-older-payments" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Click menu <code>Transaction search</code>  </li>
 <li>Set <code>Filter</code> to <code>Transaction number</code>  </li>
@@ -808,7 +808,7 @@ a refund of a booking in Comers with PayEx/SwedbankPay.</em>  </p>
 <li>Click button <code>Credit</code> in the button of the page  </li>
 <li>Set <code>Partial credit?</code> to checked  </li>
 <li>Set <code>Amount</code> to equal <strong>Outstanding amount to pay</strong> without the minus(-) symbol  </li>
-<li>Set <code>Comment</code> to <em>reason for refund</em>  </li>
+<li>Set <code>Comment</code> to <code>$REASON</code>  </li>
 <li>Click button <code>OK</code>  </li>
 </ul>
 <div class="admonition note">
@@ -818,15 +818,15 @@ a refund of a booking in Comers with PayEx/SwedbankPay.</em>  </p>
 <p>"Transaction is credited" should show at the bottom of the page.  </p>
 </blockquote>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong>  </p>
-<h4 id="refund-via-swedbankpay">Refund via SwedbankPay<a class="headerlink" href="#refund-via-swedbankpay" title="Permanent link">&para;</a></h4>
+<h4 id="refund-via-swedbankpay-newer-payments">Refund via SwedbankPay (newer payments)<a class="headerlink" href="#refund-via-swedbankpay-newer-payments" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Click <code>Menu</code> &gt; <code>Payments</code>  </li>
 <li>Input <strong>Reference</strong> in search field  </li>
 <li>Open the payment details  </li>
 <li>Copy the current url in your browser and store it for later  </li>
 <li>Click button <code>Reversal</code>  </li>
-<li>Set <code>AMOUNT TO REVERSE</code> to equal <strong>Outstanding amount to pay</strong> without the minus(-) symbol (<em>default</em>)  </li>
-<li>Set <code>Description</code> to <em>reason for refund</em>  </li>
+<li>Set <code>AMOUNT TO REVERSE</code> to equal <strong>Outstanding amount to pay</strong> in Comers without the minus symbol (<em>default</em>)  </li>
+<li>Set <code>Description</code> to <code>$REASON</code>  </li>
 <li>Click <code>Reverse Payment</code>  </li>
 </ul>
 <div class="admonition note">
@@ -845,7 +845,7 @@ a refund of a booking in Comers with PayEx/SwedbankPay.</em>  </p>
 <li>In the section <strong>Register payment manually</strong>:  <ul>
 <li>Set <code>Amount</code> to <strong>Remains to be paid</strong> (<em>default</em>)  </li>
 <li>Set <code>Way of payment</code> to same as original payment in <strong>Registered payments</strong>  </li>
-<li>Set <code>Reference</code> to <em>reason for refund</em>  </li>
+<li>Set <code>Reference</code> to <code>$REASON</code>  </li>
 <li>Click button <code>Register payment</code>  </li>
 </ul>
 </li>
@@ -855,6 +855,7 @@ a refund of a booking in Comers with PayEx/SwedbankPay.</em>  </p>
 </ul>
 </li>
 </ul>
+<p><strong>Remains to be paid</strong> should now show <code>0.00 SEK</code>.  </p>
 <p><strong><a href="#overview">⬆ Back to Top</a></strong>  </p>
 <hr />
 <h4 id="contact-customer">Contact customer<a class="headerlink" href="#contact-customer" title="Permanent link">&para;</a></h4>
