@@ -4,7 +4,9 @@ _This guide contains a step-by-step instruction on how to make
 a refund of a booking in Comers with PayEx/SwedbankPay._  
 
 !!! Warning  
-> If original payment was made with Swish, stop here and consult Erik or Malin  
+    If original payment was made with Swish, stop here and consult Aurelie,  
+    Ali, Erik or Malin  
+    ![swish](./images/register-payment-swish.png)  
 
 ## Prerequisites  
 
@@ -56,9 +58,10 @@ _Make sure you're aware of any administration/cancellation fees according to the
 
 If **Payment date** is _earlier_ than 18.06.20 open [**PayEx**](https://secure.payex.com/Admin/Logon.aspx) otherwise use [**SwedbankPay**](https://admin.payex.com/psp/login). Please note that both PayEx and SwedbankPay currently shows the same PayEx logo.  
 
-You'll need a _reason for refund._ When in doubt use _"Event cancellation"_ or something else that makes sense.  
+You'll need a _reason for refund_. Let's call it `$REASON`. When in doubt use _"Event cancellation"_ or something else that makes sense.  
 
-#### Refund via PayEx  
+
+#### Refund via PayEx (older payments)  
 
 - Click menu `Transaction search`  
 - Set `Filter` to `Transaction number`  
@@ -69,7 +72,7 @@ You'll need a _reason for refund._ When in doubt use _"Event cancellation"_ or s
 - Click button `Credit` in the button of the page  
 - Set `Partial credit?` to checked  
 - Set `Amount` to equal **Outstanding amount to pay** without the minus(-) symbol  
-- Set `Comment` to _reason for refund_  
+- Set `Comment` to `$REASON`  
 - Click button `OK`  
 
 !!! Note  
@@ -78,15 +81,15 @@ You'll need a _reason for refund._ When in doubt use _"Event cancellation"_ or s
 
 **[⬆ Back to Top](#overview)**  
 
-#### Refund via SwedbankPay  
+#### Refund via SwedbankPay (newer payments)  
 
 - Click `Menu` > `Payments`  
 - Input **Reference** in search field  
 - Open the payment details  
 - Copy the current url in your browser and store it for later  
 - Click button `Reversal`  
-- Set `AMOUNT TO REVERSE` to equal **Outstanding amount to pay** without the minus(-) symbol (_default_)  
-- Set `Description` to _reason for refund_  
+- Set `AMOUNT TO REVERSE` to equal **Outstanding amount to pay** in Comers without the minus symbol (_default_)  
+- Set `Description` to `$REASON`  
 - Click `Reverse Payment`  
 
 !!! Note  
@@ -107,11 +110,13 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
   - In the section **Register payment manually**:  
       - Set `Amount` to **Remains to be paid** (_default_)  
       - Set `Way of payment` to same as original payment in **Registered payments**  
-      - Set `Reference` to _reason for refund_  
+      - Set `Reference` to `$REASON`  
       - Click button `Register payment`  
 - Go to the **Booking cart** tab  
     - Click button `Create reciept` (if possible)  
     - Click button `Create itinerary` (if possible)  
+
+**Remains to be paid** should now show `0.00 SEK`.  
 
 **[⬆ Back to Top](#overview)**  
 
@@ -126,6 +131,7 @@ _Refunds in PayEx/SwedbankPay is not automatically registered in Comers. We'll n
     - In the section **Attach files**:  
         - Make sure neccessary attachments are included, if any.  
     - Click button `Send` in section **E-post**  
+
 
 !!! Note  
 

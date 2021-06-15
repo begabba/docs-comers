@@ -34,14 +34,13 @@ You'll also need:
 * Confirm booking  
 * Get payment link  
 
-!!! Note  
-    After you _Confirm_ or _Change_ a booking you should always click `Create receipt` and `Create itinerary` buttons.  
-    ![create-reciept](./images/create-reciept.png)  
-
 ## Video  
 
 [This video](https://drive.google.com/file/d/16QJbPEKjeYJ-7cQJ5KlaHiY4FAApTN0p/preview) shows how to add a coordinator to *2021 First half of summer* after the event has started.  
 
 <div style="position:relative; padding-bottom:56%"><iframe width="100%" height="100%" style="position:absolute" frameborder="0" src="https://drive.google.com/file/d/16QJbPEKjeYJ-7cQJ5KlaHiY4FAApTN0p/preview" allowfullscreen></iframe></div>  
 
+!!! Note  
+    After you _Confirm_ or _Change_ a booking you should always click `Create receipt` and `Create itinerary` buttons.  
+    ![create-reciept](./images/create-reciept.png)  
 ---  
