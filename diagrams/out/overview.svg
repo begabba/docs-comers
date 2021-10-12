@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1132px" preserveAspectRatio="none" style="width:1447px;height:1132px;background:#0B58A8;" version="1.1" viewBox="0 0 1447 1132" width="1447px" zoomAndPan="magnify"><defs/><g><rect fill="#0B58A8" height="51.9063" rx="2.5" ry="2.5" style="stroke:#0B58A8;stroke-width:0.0;" width="274" x="582" y="10"/><text fill="#FFFFFF" font-family="Verdana" font-size="24" font-weight="bold" lengthAdjust="spacing" textLength="264" x="587" y="37.2773">COMERS OVERVIEW</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="96" x="671" y="54.0762">infrastructure</text><!--MD5=[de43f6423bf45668632f0753929be34d]
+cluster COMERS OVERVIEW--><path d="M537,574.9063 L780,574.9063 A3.75,3.75 0 0 1 782.5,577.4063 L789.5,606.5156 L970,606.5156 A2.5,2.5 0 0 1 972.5,609.0156 L972.5,872.4063 A2.5,2.5 0 0 1 970,874.9063 L537,874.9063 A2.5,2.5 0 0 1 534.5,872.4063 L534.5,577.4063 A2.5,2.5 0 0 1 537,574.9063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="534.5" x2="789.5" y1="606.5156" y2="606.5156"/><text fill="#FFFFFF" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="242" x="538.5" y="597.3271">COMERS OVERVIEW</text><!--MD5=[332b075607233e0a2acf565a0403c5cf]
+entity BOOKINGS--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="137" x="819" y="618.9063"/><path d="M872.3333,628.9063 C870.42,628.9063 868.8333,630.4929 868.8333,632.4063 L868.8333,658.0729 C868.8333,659.9863 870.42,661.5729 872.3333,661.5729 L902.6667,661.5729 C904.58,661.5729 906.1667,659.9863 906.1667,658.0729 L906.1667,632.4063 C906.1667,630.4929 904.58,628.9063 902.6667,628.9063 L872.3333,628.9063 M873.5,633.5729 L878.1667,633.5729 L878.1667,638.2396 L873.5,638.2396 L873.5,633.5729 M882.8333,633.5729 L901.5,633.5729 L901.5,638.2396 L882.8333,638.2396 L882.8333,633.5729 M873.5,642.9063 L878.1667,642.9063 L878.1667,647.5729 L873.5,647.5729 L873.5,642.9063 M882.8333,642.9063 L901.5,642.9063 L901.5,647.5729 L882.8333,647.5729 L882.8333,642.9063 M873.5,652.2396 L878.1667,652.2396 L878.1667,656.9063 L873.5,656.9063 L873.5,652.2396 M882.8333,652.2396 L901.5,652.2396 L901.5,656.9063 L882.8333,656.9063 L882.8333,652.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="89" x="843" y="680.1629">BOOKINGS</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="36" x="829" y="694.8392">List of</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="17" x="869" y="694.8392">all</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="56" x="890" y="694.8392">bookings</text><!--MD5=[7bf72cb16cf24bc0f91d4e03bd66f8d8]
+entity EVENTS--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="95" x="651" y="769.9063"/><path d="M683.3333,779.9063 C681.42,779.9063 679.8333,781.4929 679.8333,783.4063 L679.8333,809.0729 C679.8333,810.9863 681.42,812.5729 683.3333,812.5729 L713.6667,812.5729 C715.58,812.5729 717.1667,810.9863 717.1667,809.0729 L717.1667,783.4063 C717.1667,781.4929 715.58,779.9063 713.6667,779.9063 L683.3333,779.9063 M684.5,784.5729 L689.1667,784.5729 L689.1667,789.2396 L684.5,789.2396 L684.5,784.5729 M693.8333,784.5729 L712.5,784.5729 L712.5,789.2396 L693.8333,789.2396 L693.8333,784.5729 M684.5,793.9063 L689.1667,793.9063 L689.1667,798.5729 L684.5,798.5729 L684.5,793.9063 M693.8333,793.9063 L712.5,793.9063 L712.5,798.5729 L693.8333,798.5729 L693.8333,793.9063 M684.5,803.2396 L689.1667,803.2396 L689.1667,807.9063 L684.5,807.9063 L684.5,803.2396 M693.8333,803.2396 L712.5,803.2396 L712.5,807.9063 L693.8333,807.9063 L693.8333,803.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="67" x="665" y="831.1629">EVENTS</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="75" x="661" y="845.8392">Sales report</text><!--MD5=[3d80ae752298b213deae70b8bba2614d]
+entity EMAILS--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="175" x="781" y="769.9063"/><path d="M853.3333,779.9063 C851.42,779.9063 849.8333,781.4929 849.8333,783.4063 L849.8333,809.0729 C849.8333,810.9863 851.42,812.5729 853.3333,812.5729 L883.6667,812.5729 C885.58,812.5729 887.1667,810.9863 887.1667,809.0729 L887.1667,783.4063 C887.1667,781.4929 885.58,779.9063 883.6667,779.9063 L853.3333,779.9063 M854.5,784.5729 L859.1667,784.5729 L859.1667,789.2396 L854.5,789.2396 L854.5,784.5729 M863.8333,784.5729 L882.5,784.5729 L882.5,789.2396 L863.8333,789.2396 L863.8333,784.5729 M854.5,793.9063 L859.1667,793.9063 L859.1667,798.5729 L854.5,798.5729 L854.5,793.9063 M863.8333,793.9063 L882.5,793.9063 L882.5,798.5729 L863.8333,798.5729 L863.8333,793.9063 M854.5,803.2396 L859.1667,803.2396 L859.1667,807.9063 L854.5,807.9063 L854.5,803.2396 M863.8333,803.2396 L882.5,803.2396 L882.5,807.9063 L863.8333,807.9063 L863.8333,803.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="62" x="837.5" y="831.1629">EMAILS</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="155" x="791" y="845.8392">Used for welcome emails</text><!--MD5=[ac7d5f1e2f4dbe58249198a8adf51b90]
+entity PAYMENTS--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="180" x="603.5" y="618.9063"/><path d="M678.3333,628.9063 C676.42,628.9063 674.8333,630.4929 674.8333,632.4063 L674.8333,658.0729 C674.8333,659.9863 676.42,661.5729 678.3333,661.5729 L708.6667,661.5729 C710.58,661.5729 712.1667,659.9863 712.1667,658.0729 L712.1667,632.4063 C712.1667,630.4929 710.58,628.9063 708.6667,628.9063 L678.3333,628.9063 M679.5,633.5729 L684.1667,633.5729 L684.1667,638.2396 L679.5,638.2396 L679.5,633.5729 M688.8333,633.5729 L707.5,633.5729 L707.5,638.2396 L688.8333,638.2396 L688.8333,633.5729 M679.5,642.9063 L684.1667,642.9063 L684.1667,647.5729 L679.5,647.5729 L679.5,642.9063 M688.8333,642.9063 L707.5,642.9063 L707.5,647.5729 L688.8333,647.5729 L688.8333,642.9063 M679.5,652.2396 L684.1667,652.2396 L684.1667,656.9063 L679.5,656.9063 L679.5,652.2396 M688.8333,652.2396 L707.5,652.2396 L707.5,656.9063 L688.8333,656.9063 L688.8333,652.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="93" x="647" y="680.1629">PAYMENTS</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="160" x="613.5" y="694.8392">SwedbankPay transactions</text><!--MD5=[d6b26c7028372c14605be57656e600d7]
+entity LINK--><ellipse cx="559.5" cy="663.4063" fill="#0B58A8" rx="8" ry="8" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[4229095ac90d5e3731043e9436f2923e]
+entity SETUP--><rect fill="#0B58A8" height="91.0911" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="140" x="346.5" y="617.9063"/><path d="M401.3333,627.9063 C399.42,627.9063 397.8333,629.4929 397.8333,631.4063 L397.8333,657.0729 C397.8333,658.9863 399.42,660.5729 401.3333,660.5729 L431.6667,660.5729 C433.58,660.5729 435.1667,658.9863 435.1667,657.0729 L435.1667,631.4063 C435.1667,629.4929 433.58,627.9063 431.6667,627.9063 L401.3333,627.9063 M402.5,632.5729 L407.1667,632.5729 L407.1667,637.2396 L402.5,637.2396 L402.5,632.5729 M411.8333,632.5729 L430.5,632.5729 L430.5,637.2396 L411.8333,637.2396 L411.8333,632.5729 M402.5,641.9063 L407.1667,641.9063 L407.1667,646.5729 L402.5,646.5729 L402.5,641.9063 M411.8333,641.9063 L430.5,641.9063 L430.5,646.5729 L411.8333,646.5729 L411.8333,641.9063 M402.5,651.2396 L407.1667,651.2396 L407.1667,655.9063 L402.5,655.9063 L402.5,651.2396 M411.8333,651.2396 L430.5,651.2396 L430.5,655.9063 L411.8333,655.9063 L411.8333,651.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="120" x="356.5" y="679.1629">EVENT_SETUP</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="0" x="418.5" y="695.6956"/><!--MD5=[f6e90e4a5b87ef73a11f3718852cf1ab]
+entity COMERS--><rect fill="#0B58A8" height="57.25" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="135" x="459" y="347.9063"/><text fill="#FFFFFF" font-family="Verdana" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="77" x="488" y="374.6143">Comers</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="115" x="469" y="391.8545">Booking system</text><!--MD5=[00017deca17d94159683587b31ca5fa5]
+entity SWEDBANKPAY--><rect fill="#0B58A8" height="57.25" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="164" x="444.5" y="90.9063"/><text fill="#FFFFFF" font-family="Verdana" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="144" x="454.5" y="117.6143">SwedbankPay</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="129" x="462" y="134.8545">Payment provider</text><!--MD5=[7e9784be4d8e2dece00aac143079df60]
+entity ALLERGIES--><rect fill="#0B58A8" height="57.25" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="133" x="1308" y="634.9063"/><text fill="#FFFFFF" font-family="Verdana" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="113" x="1318" y="661.6143">ALLERGIES</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="1328.5" y="678.8545">Google Form</text><!--MD5=[de22dbf7c9eb567fe3bad8e105e6d34b]
+entity TODAY--><rect fill="#0B58A8" height="57.25" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="110" x="1076.5" y="785.9063"/><text fill="#FFFFFF" font-family="Verdana" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="71" x="1096" y="812.6143">TODAY</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="90" x="1086.5" y="829.8545">Diets screen</text><!--MD5=[e1ad62f6d613811c8a27552066b60eac]
+entity GUESTS--><rect fill="#0B58A8" height="57.25" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="132" x="1221.5" y="785.9063"/><text fill="#FFFFFF" font-family="Verdana" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="83" x="1246" y="812.6143">GUESTS</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="112" x="1231.5" y="829.8545">Add guest diets</text><!--MD5=[9188aa3468de0138a37168a1d19f6624]
+entity SERVER--><polygon fill="#3988B8" points="688,363.4063,698,353.4063,785,353.4063,785,389.7031,775,399.7031,688,399.7031,688,363.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="775" x2="785" y1="363.4063" y2="353.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="688" x2="775" y1="363.4063" y2="363.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="775" x2="775" y1="363.4063" y2="399.7031"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="57" x="703" y="386.4014">SERVER</text><!--MD5=[877e927e4a5f422e7f437e492e09e70a]
+entity DIETS--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="126" x="1146.5" y="618.9063"/><path d="M1194.3333,628.9063 C1192.42,628.9063 1190.8333,630.4929 1190.8333,632.4063 L1190.8333,658.0729 C1190.8333,659.9863 1192.42,661.5729 1194.3333,661.5729 L1224.6667,661.5729 C1226.58,661.5729 1228.1667,659.9863 1228.1667,658.0729 L1228.1667,632.4063 C1228.1667,630.4929 1226.58,628.9063 1224.6667,628.9063 L1194.3333,628.9063 M1195.5,633.5729 L1200.1667,633.5729 L1200.1667,638.2396 L1195.5,638.2396 L1195.5,633.5729 M1204.8333,633.5729 L1223.5,633.5729 L1223.5,638.2396 L1204.8333,638.2396 L1204.8333,633.5729 M1195.5,642.9063 L1200.1667,642.9063 L1200.1667,647.5729 L1195.5,647.5729 L1195.5,642.9063 M1204.8333,642.9063 L1223.5,642.9063 L1223.5,647.5729 L1204.8333,647.5729 L1204.8333,642.9063 M1195.5,652.2396 L1200.1667,652.2396 L1200.1667,656.9063 L1195.5,656.9063 L1195.5,652.2396 M1204.8333,652.2396 L1223.5,652.2396 L1223.5,656.9063 L1204.8333,656.9063 L1204.8333,652.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1184.5" y="680.1629">DIETS</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="106" x="1156.5" y="694.8392">Everybodys diets</text><!--MD5=[b899a752f499d099dca00ac02ac6ac31]
+entity SIE--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="195" x="644" y="74.9063"/><path d="M726.3333,84.9063 C724.42,84.9063 722.8333,86.4929 722.8333,88.4063 L722.8333,114.0729 C722.8333,115.9863 724.42,117.5729 726.3333,117.5729 L756.6667,117.5729 C758.58,117.5729 760.1667,115.9863 760.1667,114.0729 L760.1667,88.4063 C760.1667,86.4929 758.58,84.9063 756.6667,84.9063 L726.3333,84.9063 M727.5,89.5729 L732.1667,89.5729 L732.1667,94.2396 L727.5,94.2396 L727.5,89.5729 M736.8333,89.5729 L755.5,89.5729 L755.5,94.2396 L736.8333,94.2396 L736.8333,89.5729 M727.5,98.9063 L732.1667,98.9063 L732.1667,103.5729 L727.5,103.5729 L727.5,98.9063 M736.8333,98.9063 L755.5,98.9063 L755.5,103.5729 L736.8333,103.5729 L736.8333,98.9063 M727.5,108.2396 L732.1667,108.2396 L732.1667,112.9063 L727.5,112.9063 L727.5,108.2396 M736.8333,108.2396 L755.5,108.2396 L755.5,112.9063 L736.8333,112.9063 L736.8333,108.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="164" x="659.5" y="136.1629">COMERS-SIE-VISMA</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="175" x="654" y="150.8392">Stores sie-files from Comers</text><!--MD5=[8e2b5b1384d00f1c28aaa0c5205d1d37]
+entity WCD--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="145" x="1164" y="331.9063"/><path d="M1221.3333,341.9063 C1219.42,341.9063 1217.8333,343.4929 1217.8333,345.4063 L1217.8333,371.0729 C1217.8333,372.9863 1219.42,374.5729 1221.3333,374.5729 L1251.6667,374.5729 C1253.58,374.5729 1255.1667,372.9863 1255.1667,371.0729 L1255.1667,345.4063 C1255.1667,343.4929 1253.58,341.9063 1251.6667,341.9063 L1221.3333,341.9063 M1222.5,346.5729 L1227.1667,346.5729 L1227.1667,351.2396 L1222.5,351.2396 L1222.5,346.5729 M1231.8333,346.5729 L1250.5,346.5729 L1250.5,351.2396 L1231.8333,351.2396 L1231.8333,346.5729 M1222.5,355.9063 L1227.1667,355.9063 L1227.1667,360.5729 L1222.5,360.5729 L1222.5,355.9063 M1231.8333,355.9063 L1250.5,355.9063 L1250.5,360.5729 L1231.8333,360.5729 L1231.8333,355.9063 M1222.5,365.2396 L1227.1667,365.2396 L1227.1667,369.9063 L1222.5,369.9063 L1222.5,365.2396 M1231.8333,365.2396 L1250.5,365.2396 L1250.5,369.9063 L1231.8333,369.9063 L1231.8333,365.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1174" y="393.1629">WC DATABASE</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="120" x="1176.5" y="407.8392">Working Community</text><!--MD5=[0491115f3fc640808dc5ad7e29a672e5]
+entity THESHEET--><rect fill="#0B58A8" height="88.763" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="193" x="913" y="921.9063"/><path d="M994.3333,931.9063 C992.42,931.9063 990.8333,933.4929 990.8333,935.4063 L990.8333,961.0729 C990.8333,962.9863 992.42,964.5729 994.3333,964.5729 L1024.6667,964.5729 C1026.58,964.5729 1028.1667,962.9863 1028.1667,961.0729 L1028.1667,935.4063 C1028.1667,933.4929 1026.58,931.9063 1024.6667,931.9063 L994.3333,931.9063 M995.5,936.5729 L1000.1667,936.5729 L1000.1667,941.2396 L995.5,941.2396 L995.5,936.5729 M1004.8333,936.5729 L1023.5,936.5729 L1023.5,941.2396 L1004.8333,941.2396 L1004.8333,936.5729 M995.5,945.9063 L1000.1667,945.9063 L1000.1667,950.5729 L995.5,950.5729 L995.5,945.9063 M1004.8333,945.9063 L1023.5,945.9063 L1023.5,950.5729 L1004.8333,950.5729 L1004.8333,945.9063 M995.5,955.2396 L1000.1667,955.2396 L1000.1667,959.9063 L995.5,959.9063 L995.5,955.2396 M1004.8333,955.2396 L1023.5,955.2396 L1023.5,959.9063 L1004.8333,959.9063 L1004.8333,955.2396 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="Verdana" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="94" x="962.5" y="983.1629">THE SHEET</text><text fill="#FFFFFF" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="173" x="923" y="997.8392">Volunteer administration tool</text><path d="M1141.5,956.4063 L1141.5,962.4063 L1106.08,966.4063 L1141.5,970.4063 L1141.5,976.5391 A2.5,2.5 0 0 0 1144,979.0391 L1305,979.0391 A2.5,2.5 0 0 0 1307.5,976.5391 L1307.5,963.9063 L1297.5,953.9063 L1144,953.9063 A2.5,2.5 0 0 0 1141.5,956.4063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M1297.5,953.9063 L1297.5,962.6563 A1.25,1.25 0 0 0 1298.75,963.9063 L1307.5,963.9063 L1297.5,953.9063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><ellipse cx="1153" cy="966.5391" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="132" x="1160.5" y="970.9731">Deprecate? Discuss!</text><!--MD5=[30d8f27d5f6a962166c9267799f3b561]
+entity CUSTOMER--><ellipse cx="374.5" cy="97.4063" fill="#0B58A8" rx="16" ry="16" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M374.5,117.4063 C378.5,117.4063 381.5,117.4063 385.5,113.4063 C393.5,113.4063 401.5,121.4063 401.5,129.4063 L401.5,133.4063 C401.5,137.4063 397.5,141.4063 393.5,141.4063 L355.5,141.4063 C351.5,141.4063 347.5,137.4063 347.5,133.4063 L347.5,129.4063 C347.5,121.4063 355.5,113.4063 363.5,113.4063 C367.5,117.4063 370.5,117.4063 374.5,117.4063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="70" x="339.5" y="155.9014">Customer</text><!--MD5=[1828c1ac0f4b6fb4bb9543cd9df1ba3a]
+entity MALIN--><ellipse cx="282.5" cy="641.4063" fill="#0B58A8" rx="16" ry="16" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M282.5,661.4063 C286.5,661.4063 289.5,661.4063 293.5,657.4063 C301.5,657.4063 309.5,665.4063 309.5,673.4063 L309.5,677.4063 C309.5,681.4063 305.5,685.4063 301.5,685.4063 L263.5,685.4063 C259.5,685.4063 255.5,681.4063 255.5,677.4063 L255.5,673.4063 C255.5,665.4063 263.5,657.4063 271.5,657.4063 C275.5,661.4063 278.5,661.4063 282.5,661.4063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="37" x="264" y="699.9014">Malin</text><!--MD5=[dfcd9c7fa0f415e190f6240d580cec12]
+entity ERIK--><polygon fill="#3988B8" points="355.5,363.4063,365.5,353.4063,423.5,353.4063,423.5,389.7031,413.5,399.7031,355.5,399.7031,355.5,363.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="413.5" x2="423.5" y1="363.4063" y2="353.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="355.5" x2="413.5" y1="363.4063" y2="363.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="413.5" x2="413.5" y1="363.4063" y2="399.7031"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="28" x="370.5" y="386.4014">Erik</text><path d="M11,296.4063 L11,456.7344 A2.5,2.5 0 0 0 13.5,459.2344 L317.5,459.2344 A2.5,2.5 0 0 0 320,456.7344 L320,380.4063 L355.478,376.4063 L320,372.4063 L320,303.9063 L310,293.9063 L13.5,293.9063 A2.5,2.5 0 0 0 11,296.4063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M310,293.9063 L310,302.6563 A1.25,1.25 0 0 0 311.25,303.9063 L320,303.9063 L310,293.9063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><ellipse cx="22.5" cy="306.5391" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="225" x="30" y="310.9731">Several tools to automate Comers.</text><ellipse cx="22.5" cy="321.6719" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="233" x="30" y="326.106">Most important is the tools to create</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="252" x="30" y="341.2388">event and to cleanup cancelled events.</text><ellipse cx="22.5" cy="351.9375" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="268" x="30" y="356.3716">Uses Selenium to click buttons in Comers.</text><ellipse cx="22.5" cy="382.2031" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="265" x="30" y="386.6372">The Selenium driver needs to be updated</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="240" x="30" y="401.77">when Google Chrome releases a new</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="88" x="30" y="416.9028">major version</text><ellipse cx="22.5" cy="427.6016" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="246" x="30" y="432.0356">We need to make sure these tools are</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="110" x="30" y="447.1685">available to Malin</text><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="12" x2="125" y1="367.0039" y2="367.0039"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="81" x="125" y="371.0044">Maintenance</text><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="206" x2="319" y1="367.0039" y2="367.0039"/><path d="M820,273.4063 L820,372.4063 L785.309,376.4063 L820,380.4063 L820,479.1328 A2.5,2.5 0 0 0 822.5,481.6328 L1126.5,481.6328 A2.5,2.5 0 0 0 1129,479.1328 L1129,280.9063 L1119,270.9063 L822.5,270.9063 A2.5,2.5 0 0 0 820,273.4063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M1119,270.9063 L1119,279.6563 A1.25,1.25 0 0 0 1120.25,280.9063 L1129,280.9063 L1119,270.9063 " fill="#0B58A8" style="stroke:#FFFFFF;stroke-width:1.0;"/><ellipse cx="831.5" cy="283.5391" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="225" x="839" y="287.9731">Green computer in wardrobe office</text><ellipse cx="831.5" cy="298.6719" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="62" x="839" y="303.106">Known as</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="34" x="905" y="303.106">"GS"</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="13" x="943" y="303.106">or</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="97" x="960" y="303.106">192.168.7.90</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="41" x="1061" y="303.106">on the</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="839" y="318.2388">network</text><ellipse cx="831.5" cy="328.9375" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="270" x="839" y="333.3716">Uses Selenium to export information from</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="164" x="839" y="348.5044">Comers to Google Sheets</text><ellipse cx="831.5" cy="359.2031" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="32" x="839" y="363.6372">Runs</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="93" x="875" y="363.6372">py_autorun.py</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="19" x="972" y="363.6372">via</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="98" x="995" y="363.6372">Task scheduler</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="0" x="1097" y="363.6372"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="63" x="839" y="378.77">at startup</text><ellipse cx="831.5" cy="389.4688" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="180" x="839" y="393.9028">Reboots every night (01.00)</text><ellipse cx="831.5" cy="419.7344" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="231" x="839" y="424.1685">Needs to be always on &amp; connected</text><ellipse cx="831.5" cy="434.8672" fill="#FFFFFF" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:0.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="265" x="839" y="439.3013">The Selenium driver needs to be updated</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="240" x="839" y="454.4341">when Google Chrome releases a new</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="88" x="839" y="469.5669">major version</text><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="821" x2="934" y1="404.5352" y2="404.5352"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="81" x="934" y="408.5356">Maintenance</text><line style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="1015" x2="1128" y1="404.5352" y2="404.5352"/><!--MD5=[5450e1ccadf847179953f0c303831962]
+link CUSTOMER to SWEDBANKPAY--><path d="M409.531,119.4063 C419.388,119.4063 429.245,119.4063 439.102,119.4063 " fill="none" id="CUSTOMER-to-SWEDBANKPAY" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="444.256,119.4063,435.256,115.4063,439.256,119.4063,435.256,123.4063,444.256,119.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[3665f1842f3f8476097c8db08fc07df8]
+link SWEDBANKPAY to COMERS--><path d="M526.5,148.1812 C526.5,195.6042 526.5,291.9623 526.5,342.6123 " fill="none" id="SWEDBANKPAY-to-COMERS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="526.5,347.6653,530.5,338.6653,526.5,342.6653,522.5,338.6653,526.5,347.6653" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6d8cd22f99b933539ce6bb3b2013b0fc]
+link COMERS to SERVER--><path d="M594.101,376.4063 C622.765,376.4063 655.707,376.4063 682.682,376.4063 " fill="none" id="COMERS-to-SERVER" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="687.994,376.4063,678.994,372.4063,682.994,376.4063,678.994,380.4063,687.994,376.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="612.5" y="339.4731">Bookings</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="612.5" y="354.606">every 10</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="615" y="369.7388">minutes</text><!--MD5=[7f300a43ac59a025324d34459d76efb5]
+link SWEDBANKPAY to SERVER--><path d="M549.373,148.1812 C590.215,197.7743 675.13,300.8863 714.977,349.2713 " fill="none" id="SWEDBANKPAY-to-SERVER" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="718.229,353.2202,715.594,343.7304,715.0499,349.3611,709.4193,348.817,718.229,353.2202" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="65" x="625.5" y="206.9731">Payments</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="57" x="629.5" y="222.106">every 12</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="36" x="640" y="237.2388">hours</text><!--MD5=[794fc403e070a7eede799fa4bebfcb8c]
+link SERVER to BOOKINGS--><path d="M748.349,399.7693 C772.674,445.6822 828.736,551.4943 861.799,613.8973 " fill="none" id="SERVER-to-BOOKINGS" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="864.335,618.6843,863.6578,608.8587,861.995,614.2656,856.588,612.6027,864.335,618.6843" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6d9a28a4d3bfe34d493f260d27ee90fa]
+link SERVER to PAYMENTS--><path d="M733.126,399.7693 C726.213,445.5902 710.298,551.0703 700.876,613.5213 " fill="none" id="SERVER-to-PAYMENTS" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="700.097,618.6843,705.3945,610.3814,700.8427,613.7402,697.484,609.1884,700.097,618.6843" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[195c7836f931b6d36de2b96e13f47a6c]
+reverse link SIE to SERVER--><path d="M740.543,169.2073 C739.457,224.5802 737.734,312.4783 736.934,353.2673 " fill="none" id="SIE-backto-SERVER" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="740.646,163.9523,736.4694,172.8717,740.5474,168.9513,744.4678,173.0293,740.646,163.9523" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[5e5ad2ebe2acc37189a474f1ba00aa0b]
+link BOOKINGS to EVENTS--><path d="M832.071,708.1043 C806.223,728.4823 775.642,752.5913 750.268,772.5953 " fill="none" id="BOOKINGS-to-EVENTS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="746.241,775.7693,755.7849,773.3373,750.1671,772.6732,750.8312,767.0555,746.241,775.7693" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[8e0a6c95453cf1577d89f9ac8c78e1a2]
+link BOOKINGS to EMAILS--><path d="M881.902,708.3053 C879.641,726.0383 877.023,746.5713 874.703,764.7583 " fill="none" id="BOOKINGS-to-EMAILS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="874.058,769.8213,879.1625,761.3984,874.6894,764.8613,871.2266,760.3882,874.058,769.8213" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[57fe3ed006bc06e655e0304ff0cdb6f0]
+link BOOKINGS to DIETS--><path d="M956.182,663.4063 C1010.756,663.4063 1086.7,663.4063 1141.18,663.4063 " fill="none" id="BOOKINGS-to-DIETS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1146.39,663.4063,1137.39,659.4063,1141.39,663.4063,1137.39,667.4063,1146.39,663.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="68" x="1017.25" y="641.4731">Participant</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="31" x="1035.75" y="656.606">diets</text><!--MD5=[83ec24321244e33f413f15b71e4900dd]
+link WCD to DIETS--><path d="M1232.37,421.0023 C1227.45,472.9662 1219.24,559.5553 1214.12,613.6813 " fill="none" id="WCD-to-DIETS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1213.63,618.8153,1218.4642,610.2344,1214.1034,613.8377,1210.5002,609.4769,1213.63,618.8153" style="stroke:#FFFFFF;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="1235" y="524.9731">Working</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="75" x="1223.5" y="540.106">Community</text><text fill="#FFFFFF" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="31" x="1245.5" y="555.2388">diets</text><!--MD5=[9553a6f2f5e4e65bdae968c615640e69]
+reverse link DIETS to ALLERGIES--><path d="M1277.86,663.4063 C1287.8,663.4063 1297.73,663.4063 1307.67,663.4063 " fill="none" id="DIETS-backto-ALLERGIES" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1272.66,663.4063,1281.66,667.4063,1277.66,663.4063,1281.66,659.4063,1272.66,663.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[76305409491302116f75f69fc2c25e8a]
+link DIETS to TODAY--><path d="M1186.52,708.3053 C1174.27,731.7063 1159.47,759.9843 1148.3,781.3103 " fill="none" id="DIETS-to-TODAY" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1145.98,785.7513,1153.6981,779.6332,1148.2991,781.3216,1146.6107,775.9226,1145.98,785.7513" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[11388676d269b9487382bb337fd595b3]
+reverse link DIETS to GUESTS--><path d="M1234.82,712.7663 C1247.47,736.9333 1262.32,765.3043 1273.02,785.7513 " fill="none" id="DIETS-backto-GUESTS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1232.48,708.3053,1233.1107,718.1339,1234.7991,712.7349,1240.1981,714.4233,1232.48,708.3053" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6a8246711d30634fa6436a36e34bb7e9]
+link SETUP to LINK--><path d="M486.604,663.4063 C507.865,663.4063 529.126,663.4063 550.388,663.4063 " fill="none" id="SETUP-LINK" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[a55e51c057351e18ecaaf2a9b4c6175b]
+link MALIN to SETUP--><path d="M311.027,663.4063 C321.085,663.4063 331.143,663.4063 341.2,663.4063 " fill="none" id="MALIN-to-SETUP" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#FFFFFF" points="346.46,663.4063,337.46,659.4063,341.46,663.4063,337.46,667.4063,346.46,663.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[1403d8bdff5a5214305cf2ee7a2eecad]
+reverse link ERIK to SETUP--><path d="M392.108,404.9372 C396.779,454.2363 406.608,557.9962 412.26,617.6492 " fill="none" id="ERIK-backto-SETUP" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="391.619,399.7693,388.4852,409.1062,392.0903,404.747,396.4496,408.3521,391.619,399.7693" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[98b50c83046896ccac403857bc727f71]
+link ERIK to COMERS--><path d="M423.75,376.4063 C433.662,376.4063 443.574,376.4063 453.486,376.4063 " fill="none" id="ERIK-to-COMERS" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="458.669,376.4063,449.669,372.4063,453.669,376.4063,449.669,380.4063,458.669,376.4063" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[1276828b351f6769429582424ff7705b]
+link BOOKINGS to THESHEET--><path d="M931.322,707.9693 C946.906,725.7973 963.138,747.4913 973.5,769.9063 C995.12,816.6753 1003.767,875.3863 1007.219,916.2026 " fill="none" id="BOOKINGS-to-THESHEET" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1007.653,921.5894,1010.9168,912.2971,1007.2512,916.6056,1002.9427,912.94,1007.653,921.5894" style="stroke:#FFFFFF;stroke-width:1.0;"/><rect fill="#0B58A8" height="64.8906" rx="2.5" ry="2.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="221" x="1207" y="1020.6693"/><text fill="#FFFFFF" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="42" x="1218" y="1041.6644">Lines</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="1279" y="1041.6644">Type</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="53" x="1217" y="1057.9613">Dashed</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="51" x="1278" y="1057.9613">Python</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="35" x="1217" y="1074.2581">Solid</text><text fill="#FFFFFF" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="140" x="1278" y="1074.2581">Google Apps Script</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1213" x2="1422" y1="1028.6693" y2="1028.6693"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1213" x2="1422" y1="1044.9661" y2="1044.9661"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1213" x2="1422" y1="1061.263" y2="1061.263"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1213" x2="1422" y1="1077.5599" y2="1077.5599"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1213" x2="1213" y1="1028.6693" y2="1077.5599"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1274" x2="1274" y1="1028.6693" y2="1077.5599"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1422" x2="1422" y1="1028.6693" y2="1077.5599"/><rect fill="#0B58A8" height="23.2813" rx="2.5" ry="2.5" style="stroke:#0B58A8;stroke-width:0.0;" width="463" x="487.5" y="1096.5599"/><text fill="#FFFFFF" font-family="Verdana" font-size="10" font-weight="bold" lengthAdjust="spacing" textLength="234" x="602" y="1105.8421">Only ongoing processes is presented</text><text fill="#FFFFFF" font-family="Verdana" font-size="10" lengthAdjust="spacing" textLength="463" x="487.5" y="1117.4827">There might be temporary solutions that depends on COMERS OVERVIEW still running.</text><!--MD5=[2da61ba4231a2ede795ec853bff6277c]
+@startuml
+!theme amiga
+skinparam handWritten false
+skinparam actorStyle awesome
+skinparam roundCorner 5
+skinparam maxMessageSize 100
+skinparam wrapWidth 270
+' skinparam defaultTextAlignment center
+
+<style>
+  rectangle { 
+    HorizontalAlignment center 
+  }
+  node { 
+    backgroundColor #3988B8
+  }
+</style>
+
+title ==COMERS OVERVIEW\n<size:12>//infrastructure//</size>
+footer **Only ongoing processes is presented**\nThere might be temporary solutions that depends on COMERS OVERVIEW still running.
+legend right
+|= Lines|= Type |
+| Dashed | Python |
+| Solid | Google Apps Script |
+endlegend
+
+' Functions
+!unquoted procedure $Sheet($alias, $title, $description="")
+  rectangle $alias [
+  <&spreadsheet{scale=4}>
+  ===$title
+  <size:12>$description</size>
+]
+!endprocedure
+
+' Objects
+package "COMERS OVERVIEW" {
+  $Sheet(BOOKINGS, BOOKINGS,List of **all** bookings)
+  $Sheet(EVENTS, EVENTS,Sales report)
+  $Sheet(EMAILS, EMAILS,Used for welcome emails)
+  $Sheet(PAYMENTS, PAYMENTS,SwedbankPay transactions)
+  interface " " as LINK
+}
+$Sheet(SETUP,EVENT_SETUP,"")
+rectangle "=Comers\nBooking system" as COMERS
+rectangle "=SwedbankPay\nPayment provider" as SWEDBANKPAY
+rectangle "=ALLERGIES\nGoogle Form" as ALLERGIES
+rectangle "=TODAY\nDiets screen" as TODAY
+rectangle "=GUESTS\nAdd guest diets" as GUESTS
+node SERVER
+$Sheet(DIETS,DIETS,Everybodys diets)
+$Sheet(SIE,COMERS-SIE-VISMA,"Stores sie-files from Comers")
+$Sheet(WCD,WC DATABASE,Working Community)
+$Sheet(THESHEET,THE SHEET,Volunteer administration tool)
+note right
+  * Deprecate? Discuss!
+end note
+actor "Customer" as CUSTOMER
+actor "Malin" as MALIN
+node "Erik" as ERIK
+
+' Links
+CUSTOMER -right-> SWEDBANKPAY
+SWEDBANKPAY -down-> COMERS
+COMERS -.right.> SERVER: Bookings\nevery 10\nminutes
+SWEDBANKPAY -.right.> SERVER: Payments\nevery 12\nhours
+SERVER .down.> BOOKINGS
+SERVER .> PAYMENTS
+SERVER .up.> SIE
+BOOKINGS -down-> EVENTS
+BOOKINGS -down-> EMAILS
+BOOKINGS -right-> DIETS: Participant\ndiets
+WCD -down-> DIETS: Working\nCommunity\ndiets
+ALLERGIES -left-> DIETS
+TODAY <-up- DIETS
+GUESTS -up-> DIETS
+LINK -left- SETUP
+MALIN -[dotted]> SETUP
+SETUP .up.> ERIK
+ERIK .> COMERS
+BOOKINGS -down- -> THESHEET
+
+note left of ERIK
+*Several tools to automate Comers.
+*Most important is the tools to create event and to cleanup cancelled events. 
+*Uses Selenium to click buttons in Comers.
+..Maintenance..
+*The Selenium driver needs to be updated when Google Chrome releases a new major version
+*We need to make sure these tools are available to Malin
+end note
+note right of SERVER
+*Green computer in wardrobe office
+*Known as **"GS"** or **192.168.7.90** on the network
+*Uses Selenium to export information from Comers to Google Sheets
+*Runs //py_autorun.py// via //Task scheduler// at startup
+*Reboots every night (01.00)
+..Maintenance..
+*Needs to be always on & connected
+*The Selenium driver needs to be updated when Google Chrome releases a new major version
+end note
+@enduml
+
+@startuml
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #0B58A8
+    FontColor #FFFFFF
+    FontName Verdana
+    HyperLinkColor #FDA325
+    LineColor #FFFFFF
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFFFFF
+    FontColor #0B58A8
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFFFFF
+skinparam BackgroundColor #0B58A8
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFFFFF
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #0B58A8
+  BarColor #FFFFFF
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFFFFF
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #0B58A8
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FDA325
+}
+skinparam IconPackage {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPrivate {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconProtected {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam IconPublic {
+  Color #FFFFFF
+  BackgroundColor #0B58A8
+}
+skinparam Note {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam Package {
+  BorderColor #FFFFFF
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #0B58A8
+  BorderColor #FFFFFF
+}
+skinparam StereotypeA {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeC {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeE {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeI {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam StereotypeN {
+  BackgroundColor #FFFFFF
+  BorderColor #FFFFFF
+}
+skinparam UseCaseStereoType {
+  FontColor #FFFFFF
+  FontName Verdana
+}
+skinparam handWritten false
+skinparam actorStyle awesome
+skinparam roundCorner 5
+skinparam maxMessageSize 100
+skinparam wrapWidth 270
+
+<style>
+  rectangle { 
+    HorizontalAlignment center 
+  }
+  node { 
+    backgroundColor #3988B8
+  }
+</style>
+
+title ==COMERS OVERVIEW\n<size:12>//infrastructure//</size>
+footer **Only ongoing processes is presented**\nThere might be temporary solutions that depends on COMERS OVERVIEW still running.
+legend right
+|= Lines|= Type |
+| Dashed | Python |
+| Solid | Google Apps Script |
+endlegend
+
+
+package "COMERS OVERVIEW" {
+    rectangle BOOKINGS [
+  <&spreadsheet{scale=4}>
+  ===BOOKINGS
+  <size:12>List of **all** bookings</size>
+]
+    rectangle EVENTS [
+  <&spreadsheet{scale=4}>
+  ===EVENTS
+  <size:12>Sales report</size>
+]
+    rectangle EMAILS [
+  <&spreadsheet{scale=4}>
+  ===EMAILS
+  <size:12>Used for welcome emails</size>
+]
+    rectangle PAYMENTS [
+  <&spreadsheet{scale=4}>
+  ===PAYMENTS
+  <size:12>SwedbankPay transactions</size>
+]
+  interface " " as LINK
+}
+  rectangle SETUP [
+  <&spreadsheet{scale=4}>
+  ===EVENT_SETUP
+  <size:12></size>
+]
+rectangle "=Comers\nBooking system" as COMERS
+rectangle "=SwedbankPay\nPayment provider" as SWEDBANKPAY
+rectangle "=ALLERGIES\nGoogle Form" as ALLERGIES
+rectangle "=TODAY\nDiets screen" as TODAY
+rectangle "=GUESTS\nAdd guest diets" as GUESTS
+node SERVER
+  rectangle DIETS [
+  <&spreadsheet{scale=4}>
+  ===DIETS
+  <size:12>Everybodys diets</size>
+]
+  rectangle SIE [
+  <&spreadsheet{scale=4}>
+  ===COMERS-SIE-VISMA
+  <size:12>Stores sie-files from Comers</size>
+]
+  rectangle WCD [
+  <&spreadsheet{scale=4}>
+  ===WC DATABASE
+  <size:12>Working Community</size>
+]
+  rectangle THESHEET [
+  <&spreadsheet{scale=4}>
+  ===THE SHEET
+  <size:12>Volunteer administration tool</size>
+]
+note right
+  * Deprecate? Discuss!
+end note
+actor "Customer" as CUSTOMER
+actor "Malin" as MALIN
+node "Erik" as ERIK
+
+CUSTOMER -right-> SWEDBANKPAY
+SWEDBANKPAY -down-> COMERS
+COMERS -.right.> SERVER: Bookings\nevery 10\nminutes
+SWEDBANKPAY -.right.> SERVER: Payments\nevery 12\nhours
+SERVER .down.> BOOKINGS
+SERVER .> PAYMENTS
+SERVER .up.> SIE
+BOOKINGS -down-> EVENTS
+BOOKINGS -down-> EMAILS
+BOOKINGS -right-> DIETS: Participant\ndiets
+WCD -down-> DIETS: Working\nCommunity\ndiets
+ALLERGIES -left-> DIETS
+TODAY <-up- DIETS
+GUESTS -up-> DIETS
+LINK -left- SETUP
+MALIN -[dotted]> SETUP
+SETUP .up.> ERIK
+ERIK .> COMERS
+BOOKINGS -down- -> THESHEET
+
+note left of ERIK
+*Several tools to automate Comers.
+*Most important is the tools to create event and to cleanup cancelled events. 
+*Uses Selenium to click buttons in Comers.
+..Maintenance..
+*The Selenium driver needs to be updated when Google Chrome releases a new major version
+*We need to make sure these tools are available to Malin
+end note
+note right of SERVER
+*Green computer in wardrobe office
+*Known as **"GS"** or **192.168.7.90** on the network
+*Uses Selenium to export information from Comers to Google Sheets
+*Runs //py_autorun.py// via //Task scheduler// at startup
+*Reboots every night (01.00)
+..Maintenance..
+*Needs to be always on & connected
+*The Selenium driver needs to be updated when Google Chrome releases a new major version
+end note
+@enduml
+
+PlantUML version 1.2021.13beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
