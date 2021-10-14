@@ -33,11 +33,12 @@ Arrangements has the same starting and ending date.
 `AwesomeBar`
 : This a set of features that runs in `COMERS OVERVIEW`. These can be accessed via the Ängsbacka menu. 
 
-| Feature  | Description                                                                     |
-| Price    | Shows the arrangement & accommodation prices including early bird and discounts |
-| Products | ...                                                                             |
-| Validate |                                                                                 |
-| Capacity | Compare capacity between the selected event in COMERS OVERVIEW and Comers       |
+| AwesomeBar features | |
+| -----------         | ------------------------------------                                            |
+| Price               | Shows the arrangement & accommodation prices including early bird and discounts |
+| Products            | View and edit assigned products to selected event                               |
+| Validate            | Test the selected event for issues                                              |
+| Capacity            | Compare capacity between the selected event in COMERS OVERVIEW and Comers       |
 
 
 
