@@ -1,47 +1,43 @@
 # Glossary
 
-!!! Warning
+This chapter tries explains some of the concepts and terminology used in the guides.
 
-> **This page is not finished and might contain errors.**
+`Event`
+: An bookable event in Comers consists of a connected `Project`, `Arrangement` & `Package`
+Without execeptions we *always* use the exact same name for both `Project`, `Arrangement` & `Package`. Otherwise we're doomed.
 
-This chapter explains some of the concepts and terminology of Comers.
-
-A bookable event in Comers needs:
-
-- Project
-- Arrangement
-- Package
-
-!!! Naming convention
-
-> For consistency **always** use the exact same name for Projects, Arrangements & Packages.
-
-### Project
-
-A Project connects the Arrangement and Package together. A Project's `Project Number` is used as `resultat enhet` in Visma.
+`Project`
+: A Project connects the Arrangement and Package together. A Project's `Project Number` is used as `resultat enhet` in Visma.
 Projects can be used to filter searches via _Arrival list_ or _Search bookings_.
-A Project should always have identical names as the connected Arrangement and Package.
 
-### Arrangement
-
-...
-Arrangements contains the price & capacity for the Arrangement part of a booking.
+`Arrangement`
+: Arrangements contains the price & capacity for the Arrangement part of a booking.
 It also handles the presentation of the Package in the booking flow (description & image).
 Arrangements has the same starting and ending date.
 
-### Package
+`Package`
+: Package determines the bookable accommodations for the event. When events overlap the `Price type` is used make product only bookable for certain event.
 
-Package determines the bookable accommodations for the event.
-When events overlap the `Price type` is used make product only bookable for certain event.
+`COMERS OVERVIEW`
+: COMERS OVERVIEW is a Spreadsheet originally used to aid in creating event events for Comers. 
 
-### COMERS OVERVIEW
+`Products`
+: Products is Comers means beds for Ängsbacka. Is also refered to as Hotel. Products have a capacity & price just like Arrangements.
 
-COMERS OVERVIEW is a Google Sheet used to design events for Comers.
+`Capacity`
+: Both Arrangements & Products have capacity. Capacity decides the number of individuals (without infants) it can hold. `Allotment` means limited space and `Freesale` means unlimited.
 
-### Products
+`Price Type`:
+: `Price Types` are an identifier used in `Packages` to tell Comers which products belong to which event. It's important that the `Price Type` is unique for each overlapping event. `AwesomeBar`'s Validate feature makes sure this is the case. Use `AB[0-9]` for participant events, `V[01-22]` for volunteer events and `LT0` for long term (renters/guests) events.
 
-Products is Comers means beds. Is also refered to as Hotel.
+`AwesomeBar`
+: This a set of features that runs in `COMERS OVERVIEW`. These can be accessed via the Ängsbacka menu. 
 
-### Capacity
+| Feature  | Description                                                                     |
+| Price    | Shows the arrangement & accommodation prices including early bird and discounts |
+| Products | ...                                                                             |
+| Validate |                                                                                 |
+| Capacity | Compare capacity between the selected event in COMERS OVERVIEW and Comers       |
 
-Both Arrangements & Products have capacity. Capacity decides the number of individuals (without infants) it can hold. `Allotment` means limited space and `Freesale` means unlimited.
+
+

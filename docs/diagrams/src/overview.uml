@@ -9,16 +9,21 @@ skinparam wrapWidth 270
 ' skinparam defaultTextAlignment center
 
 <style>
-rectangle {
-  HorizontalAlignment center
-}
-node {
-  backgroundColor RosyBrown
-  borderColor orange
-}
+  rectangle { 
+    HorizontalAlignment center 
+  }
+  node { 
+    backgroundColor #3988B8
+  }
 </style>
+
 title ==COMERS OVERVIEW\n<size:12>//infrastructure//</size>
 footer **Only ongoing processes is presented**\nThere might be temporary solutions that depends on COMERS OVERVIEW still running.
+legend right
+|= Lines|= Type |
+| Dashed | Python |
+| Solid | Google Apps Script |
+endlegend
 
 ' Functions
 !unquoted procedure $Sheet($alias, $title, $description="")
@@ -44,16 +49,6 @@ rectangle "=ALLERGIES\nGoogle Form" as ALLERGIES
 rectangle "=TODAY\nDiets screen" as TODAY
 rectangle "=GUESTS\nAdd guest diets" as GUESTS
 node SERVER
-note right
-*Green computer in wardrobe office
-*Known as **"GS"** or **192.168.7.90** on the network
-*Uses Selenium to export information from Comers to Google Sheets
-*Runs //py_autorun.py// via //Task scheduler// at startup
-*Reboots every night (01.00)
-..Maintenance..
-*Needs to be always on & connected
-*The Selenium driver needs to be updated when Google Chrome releases a new major version
-end note
 $Sheet(DIETS,DIETS,Everybodys diets)
 $Sheet(SIE,COMERS-SIE-VISMA,"Stores sie-files from Comers")
 $Sheet(WCD,WC DATABASE,Working Community)
@@ -64,17 +59,9 @@ end note
 actor "Customer" as CUSTOMER
 actor "Malin" as MALIN
 node "Erik" as ERIK
-note left
-*Several tools to automate Comers.
-*Most important is the tools to create event and to cleanup cancelled events. 
-*Uses Selenium to click buttons in Comers.
-..Maintenance..
-*The Selenium driver needs to be updated when Google Chrome releases a new major version
-*We need to make sure these tools are available to Malin
-end note
 
 ' Links
-CUSTOMER -down-> SWEDBANKPAY
+CUSTOMER -right-> SWEDBANKPAY
 SWEDBANKPAY -down-> COMERS
 COMERS -.right.> SERVER: Bookings\nevery 10\nminutes
 SWEDBANKPAY -.right.> SERVER: Payments\nevery 12\nhours
@@ -88,12 +75,28 @@ WCD -down-> DIETS: Working\nCommunity\ndiets
 ALLERGIES -left-> DIETS
 TODAY <-up- DIETS
 GUESTS -up-> DIETS
-LINK -> SETUP
-MALIN -up-> SETUP
+LINK -left- SETUP
+MALIN -[dotted]> SETUP
 SETUP .up.> ERIK
 ERIK .> COMERS
 BOOKINGS -down--> THESHEET
 
-
-
+note left of ERIK
+*Several tools to automate Comers.
+*Most important is the tools to create event and to cleanup cancelled events. 
+*Uses Selenium to click buttons in Comers.
+..Maintenance..
+*The Selenium driver needs to be updated when Google Chrome releases a new major version
+*We need to make sure these tools are available to Malin
+end note
+note right of SERVER
+*Green computer in wardrobe office
+*Known as **"GS"** or **192.168.7.90** on the network
+*Uses Selenium to export information from Comers to Google Sheets
+*Runs //py_autorun.py// via //Task scheduler// at startup
+*Reboots every night (01.00)
+..Maintenance..
+*Needs to be always on & connected
+*The Selenium driver needs to be updated when Google Chrome releases a new major version
+end note
 @enduml

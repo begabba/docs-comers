@@ -27,12 +27,18 @@ markdown_extensions:
   - toc:
       permalink: true
 #   - codehilite:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # - pymdownx.emoji:
+      # emoji_index: !!python/name:materialx.emoji.twemoji
+      # emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:
   - search:
   - build_plantuml:
       render: "server" # or "local" for local rendering
       bin_path: "/usr/local/bin/plantuml" # ignored when render: server
-      erver: "http://www.plantuml.com/plantuml" # offical plantuml server
+      server: "http://www.plantuml.com/plantuml" # offical plantuml server
       output_format: "svg" # or "png"
       diagram_root: "docs/diagrams" # should reside under docs_dir
       output_folder: "out"
