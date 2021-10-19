@@ -7,6 +7,7 @@ The problem occurs when the user is logged in to multiple accounts, where both a
 The script don't know which account is used. This results in a crash and often looks like a white window.
 
 This is a known by Google but at the time of writing the only solution is:
+
 * Remove permission in the Spreadsheet for one of the accounts.
 * Logout of all accounts and log in as one of the users.
 
