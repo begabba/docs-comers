@@ -6,6 +6,8 @@ In some edge cases, features in in the Ängsbacka menu doesn't work.
 The problem occurs when the user is logged in to multiple accounts, where both accounts has access to the current Spreadsheet, and runs a script that tries to access another Spreadsheet.
 The script don't know which account is used. This results in a crash and often looks like a white window.
 
+A temporary solution is to open the Spreadsheet in a [incognito window](https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop).
+
 This is a known by Google but at the time of writing the only solution is:
 
 * Remove permission in the Spreadsheet for one of the accounts.
