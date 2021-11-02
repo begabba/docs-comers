@@ -6,7 +6,7 @@ a refund of a booking in Comers with PayEx/SwedbankPay._
 !!! Warning  
     If original payment was made with Swish, the refund process looks like this.  
     The original payment can be found in the section **Registered payments** in the bottom of Payments tab in a booking.  
-    In case of questions please contact Ali or Erik.  
+    In case of questions please contact Malin or Erik.  
     ![swish-refund](./images/swish-refund.png)  
 
 ## Prerequisites  
