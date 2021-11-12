@@ -249,15 +249,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#features-in-the-angsbacka-menu-doesnt-work-or-only-shows-a-empty-window" class="md-nav__link">
-    Features in the Ängsbacka menu doesn't work or only shows a empty window
+  <a href="#error-message-or-blank-window-in-spreadsheet" class="md-nav__link">
+    Error message or blank window in Spreadsheet?
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#new-bookings-isnt-shown-in-comers-overview" class="md-nav__link">
-    New bookings isn't shown in COMERS OVERVIEW
+    New bookings isn't shown in COMERS OVERVIEW?
   </a>
   
 </li>
@@ -585,15 +585,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#features-in-the-angsbacka-menu-doesnt-work-or-only-shows-a-empty-window" class="md-nav__link">
-    Features in the Ängsbacka menu doesn't work or only shows a empty window
+  <a href="#error-message-or-blank-window-in-spreadsheet" class="md-nav__link">
+    Error message or blank window in Spreadsheet?
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#new-bookings-isnt-shown-in-comers-overview" class="md-nav__link">
-    New bookings isn't shown in COMERS OVERVIEW
+    New bookings isn't shown in COMERS OVERVIEW?
   </a>
   
 </li>
@@ -620,7 +620,11 @@
                 
                 <h1 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h1>
 <p><em>Issues aren't common, but here's the common issues.</em></p>
-<h2 id="features-in-the-angsbacka-menu-doesnt-work-or-only-shows-a-empty-window">Features in the Ängsbacka menu doesn't work or only shows a empty window<a class="headerlink" href="#features-in-the-angsbacka-menu-doesnt-work-or-only-shows-a-empty-window" title="Permanent link">&para;</a></h2>
+<h2 id="error-message-or-blank-window-in-spreadsheet">Error message or blank window in Spreadsheet?<a class="headerlink" href="#error-message-or-blank-window-in-spreadsheet" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>"ScriptError: We're sorry, a server error occurred while reading from storage.<br />
+  Error code PERMISSION_DENIED."</p>
+</blockquote>
 <p>In some edge cases, features in in the Ängsbacka menu doesn't work.
 The problem occurs when the user is logged in to multiple accounts, where both accounts has access to the current Spreadsheet, and runs a script that tries to access another Spreadsheet.
 The script don't know which account is used. This results in a crash and often looks like a white window.</p>
@@ -630,7 +634,7 @@ The script don't know which account is used. This results in a crash and often l
 <li>Remove permission in the Spreadsheet for one of the accounts.</li>
 <li>Logout of all accounts and log in as one of the users.</li>
 </ul>
-<h2 id="new-bookings-isnt-shown-in-comers-overview">New bookings isn't shown in COMERS OVERVIEW<a class="headerlink" href="#new-bookings-isnt-shown-in-comers-overview" title="Permanent link">&para;</a></h2>
+<h2 id="new-bookings-isnt-shown-in-comers-overview">New bookings isn't shown in COMERS OVERVIEW?<a class="headerlink" href="#new-bookings-isnt-shown-in-comers-overview" title="Permanent link">&para;</a></h2>
 <p>Normally new bookings should show up in COMERS OVERVIEW within 10 minutes. If it's been more than a day since last update I suggest you follow this guide.</p>
 <p>A newer version on Google Chrome has probably been released and we'll need to update the Selenium Chrome driver on the computer in the wardrobe office. Don't you worry, it's easy.</p>
 <p>Find out what's the current version of Google Chrome is.
