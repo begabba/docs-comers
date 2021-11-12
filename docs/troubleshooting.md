@@ -1,7 +1,11 @@
 # Troubleshooting
 _Issues aren't common, but here's the common issues._
 
-## Features in the Ängsbacka menu doesn't work or only shows a empty window
+## Error message or blank window in Spreadsheet?
+
+> "ScriptError: We're sorry, a server error occurred while reading from storage.  
+  Error code PERMISSION_DENIED."
+
 In some edge cases, features in in the Ängsbacka menu doesn't work.
 The problem occurs when the user is logged in to multiple accounts, where both accounts has access to the current Spreadsheet, and runs a script that tries to access another Spreadsheet.
 The script don't know which account is used. This results in a crash and often looks like a white window.
@@ -13,7 +17,7 @@ This is a known by Google but at the time of writing the only solution is:
 * Remove permission in the Spreadsheet for one of the accounts.
 * Logout of all accounts and log in as one of the users.
 
-## New bookings isn't shown in COMERS OVERVIEW
+## New bookings isn't shown in COMERS OVERVIEW?
 Normally new bookings should show up in COMERS OVERVIEW within 10 minutes. If it's been more than a day since last update I suggest you follow this guide.
 
 A newer version on Google Chrome has probably been released and we'll need to update the Selenium Chrome driver on the computer in the wardrobe office. Don't you worry, it's easy.
