@@ -18,7 +18,7 @@ skinparam wrapWidth 270
 </style>
 
 title ==COMERS OVERVIEW\n<size:12>//infrastructure//</size>
-footer **Only ongoing processes is presented**\nThere might be temporary solutions that depends on COMERS OVERVIEW still running.
+footer **January 2022**
 legend right
 |= Lines|= Type |
 | Dashed | Python |
@@ -38,7 +38,7 @@ endlegend
 package "COMERS OVERVIEW" {
   $Sheet(BOOKINGS, BOOKINGS,List of **all** bookings)
   $Sheet(EVENTS, EVENTS,Sales report)
-  $Sheet(EMAILS, EMAILS,Used for welcome emails)
+  $Sheet(EMAILS, EMAILS,"Used for welcome emails")
   $Sheet(PAYMENTS, PAYMENTS,SwedbankPay transactions)
   interface " " as LINK
 }
@@ -46,7 +46,7 @@ $Sheet(SETUP,EVENT_SETUP,"")
 rectangle "=Comers\nBooking system" as COMERS
 rectangle "=SwedbankPay\nPayment provider" as SWEDBANKPAY
 rectangle "=ALLERGIES\nGoogle Form" as ALLERGIES
-rectangle "=TODAY\nDiets screen" as TODAY
+rectangle "=TODAY\nDiets screen\nin Kitchen" as TODAY
 rectangle "=GUESTS\nAdd guest diets" as GUESTS
 node SERVER
 $Sheet(DIETS,DIETS,Everybodys diets)
@@ -54,7 +54,7 @@ $Sheet(SIE,COMERS-SIE-VISMA,"Stores sie-files from Comers")
 $Sheet(WCD,WC DATABASE,Working Community)
 $Sheet(THESHEET,THE SHEET,Volunteer administration tool)
 note right
-  * Deprecate? Discuss!
+  * This was used 2021 but will be deprecated.
 end note
 actor "Customer" as CUSTOMER
 actor "Malin" as MALIN
@@ -71,7 +71,7 @@ SERVER .up.> SIE
 BOOKINGS -down-> EVENTS
 BOOKINGS -down-> EMAILS
 BOOKINGS -right-> DIETS: Participant\ndiets
-WCD -down-> DIETS: Working\nCommunity\ndiets
+WCD -down-> DIETS
 ALLERGIES -left-> DIETS
 TODAY <-up- DIETS
 GUESTS -up-> DIETS
@@ -86,8 +86,7 @@ note left of ERIK
 *Most important is the tools to create event and to cleanup cancelled events. 
 *Uses Selenium to click buttons in Comers.
 ..Maintenance..
-*The Selenium driver needs to be updated when Google Chrome releases a new major version
-*We need to make sure these tools are available to Malin
+*The Selenium driver needs to be updated when Google Chrome releases a new major version. See Troubleshooting for guide.
 end note
 note right of SERVER
 *Green computer in wardrobe office
@@ -97,6 +96,6 @@ note right of SERVER
 *Reboots every night (01.00)
 ..Maintenance..
 *Needs to be always on & connected
-*The Selenium driver needs to be updated when Google Chrome releases a new major version
+*The Selenium driver needs to be updated when Google Chrome releases a new major version. See Troubleshooting for guide.
 end note
 @enduml
