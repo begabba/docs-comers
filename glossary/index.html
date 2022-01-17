@@ -264,22 +264,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides/create-a-manual-booking/" class="md-nav__link">
-        Create a manual booking
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides/create-booking-for-past-event/" class="md-nav__link">
-        Create booking for passed event
+      <a href="../guides/cancel-an-event/" class="md-nav__link">
+        Cancel an event
       </a>
     </li>
   
@@ -323,65 +309,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_4_5">
-          Cancel event
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Cancel event" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_5">
-          <span class="md-nav__icon md-icon"></span>
-          Cancel event
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides/cancel-event/00.%20Cancel%20an%20event/" class="md-nav__link">
-        Cancel an event
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6" type="checkbox" id="__nav_4_6" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4_6">
+        <label class="md-nav__link" for="__nav_4_4">
           Create a new event
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Create a new event" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_6">
+        <label class="md-nav__title" for="__nav_4_4">
           <span class="md-nav__icon md-icon"></span>
           Create a new event
         </label>
@@ -557,13 +496,13 @@ Projects can be used to filter searches via <em>Arrival list</em> or <em>Search 
 It also handles the presentation of the Package in the booking flow (description &amp; image).
 Arrangements has the same starting and ending date.</dd>
 <dt><code>Package</code></dt>
-<dd>Package determines the bookable accommodations for the event. When events overlap the <code>Price type</code> is used make product only bookable for certain event.</dd>
+<dd>Package determines the bookable accommodations for the event. When events overlap the <code>Price type</code> is used define the price for the the specific event.</dd>
 <dt><code>COMERS OVERVIEW</code></dt>
 <dd>COMERS OVERVIEW is a Spreadsheet originally used to aid in creating event events for Comers. </dd>
 <dt><code>Products</code></dt>
-<dd>Products is Comers means beds for Ängsbacka. Is also refered to as Hotel. Products have a capacity &amp; price just like Arrangements.</dd>
+<dd>Products is Comers means beds for Ängsbacka. Is also refered to as Hotel. Products have a capacity &amp; price just like Arrangements</dd>
 <dt><code>Capacity</code></dt>
-<dd>Both Arrangements &amp; Products have capacity. Capacity decides the number of individuals (without infants) it can hold. <code>Allotment</code> means limited space and <code>Freesale</code> means unlimited.</dd>
+<dd>Both Arrangements &amp; Products have capacity. Capacity decides the number of individuals (not infants) it can hold. <code>Allotment</code> means limited space and <code>Freesale</code> means unlimited. Adding capacity to Products means they're available for all events during that period.</dd>
 <dt><code>Price Type</code>:</dt>
 <dd><code>Price Types</code> are an identifier used in <code>Packages</code> to tell Comers which products belong to which event. It's important that the <code>Price Type</code> is unique for each overlapping event. <code>AwesomeBar</code>'s Validate feature makes sure this is the case. Use <code>AB[0-9]</code> for participant events, <code>V[01-22]</code> for volunteer events and <code>LT0</code> for long term (renters/guests) events.</dd>
 <dt><code>AwesomeBar</code></dt>
