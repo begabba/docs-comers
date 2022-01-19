@@ -16,16 +16,16 @@ It also handles the presentation of the Package in the booking flow (description
 Arrangements has the same starting and ending date.
 
 `Package`
-: Package determines the bookable accommodations for the event. When events overlap the `Price type` is used make product only bookable for certain event.
+: Package determines the bookable accommodations for the event. When events overlap the `Price type` is used define the price for the the specific event.
 
 `COMERS OVERVIEW`
 : COMERS OVERVIEW is a Spreadsheet originally used to aid in creating event events for Comers. 
 
 `Products`
-: Products is Comers means beds for Ängsbacka. Is also refered to as Hotel. Products have a capacity & price just like Arrangements.
+: Products is Comers means beds for Ängsbacka. Is also refered to as Hotel. Products have a capacity & price just like Arrangements
 
 `Capacity`
-: Both Arrangements & Products have capacity. Capacity decides the number of individuals (without infants) it can hold. `Allotment` means limited space and `Freesale` means unlimited.
+: Both Arrangements & Products have capacity. Capacity decides the number of individuals (not infants) it can hold. `Allotment` means limited space and `Freesale` means unlimited. Adding capacity to Products means they're available for all events during that period.
 
 `Price Type`:
 : `Price Types` are an identifier used in `Packages` to tell Comers which products belong to which event. It's important that the `Price Type` is unique for each overlapping event. `AwesomeBar`'s Validate feature makes sure this is the case. Use `AB[0-9]` for participant events, `V[01-22]` for volunteer events and `LT0` for long term (renters/guests) events.
@@ -39,6 +39,4 @@ Arrangements has the same starting and ending date.
 | Products            | View and edit assigned products to selected event                               |
 | Validate            | Test the selected event for issues                                              |
 | Capacity            | Compare capacity between the selected event in COMERS OVERVIEW and Comers       |
-
-
 

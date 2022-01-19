@@ -6,16 +6,12 @@ _Issues aren't common, but here's the common issues._
 > "ScriptError: We're sorry, a server error occurred while reading from storage.  
   Error code PERMISSION_DENIED."
 
-In some edge cases, features in in the Ängsbacka menu doesn't work.
-The problem occurs when the user is logged in to multiple accounts, where both accounts has access to the current Spreadsheet, and runs a script that tries to access another Spreadsheet.
-The script don't know which account is used. This results in a crash and often looks like a white window.
+This is a bug in Google Sheet that occurs when user is logged in to multiple accounts. The code runs as the _default account_ (first), not the active account, which results in PERMISSION_DENIED.
+Google has been aware of this bug since November, 2017 and still hasn’t fixed it so it’s best to plan on working around this issue for the time being. While there is not great solution, there are a few options:
 
-A temporary solution is to open the Spreadsheet in a [incognito window](https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop).
-
-This is a known by Google but at the time of writing the only solution is:
-
-* Remove permission in the Spreadsheet for one of the accounts.
-* Logout of all accounts and log in as one of the users.
+1. Log out of all accounts and log in with the angsbacka.se account first. This is the most reliable long term solution.
+2. Use an incognito / private window. An incognito window is logged out of all accounts by default so logging in with the work account will cause it to be the only logged in account. This is great for a quick fix, but logging in multiple times can be cumbersome.
+3. Use a seperate browser for different accounts. This is a variation of #2. By devoting an entire browser to work and another to personal accounts it avoids this problem and because the session isn’t in an incognito / private window you can stay logged in over time.
 
 ## New bookings isn't shown in COMERS OVERVIEW?
 Normally new bookings should show up in COMERS OVERVIEW within 10 minutes. If it's been more than a day since last update I suggest you follow this guide.
