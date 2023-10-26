@@ -8,3 +8,5 @@ Install dependencies via Python
 Run `mkdocs serve` to start a local server on http://127.0.0.1:8000/
 
 Run `mkdocs gh-deploy` to publish documentation to GitHub Pages.
+
+https://begabba.github.io/docs-comers/

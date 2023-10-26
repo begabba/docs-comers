@@ -1,3 +1,7 @@
 # Specify filepatterns you want git to ignore.
 site
 
+bin
+lib/python3.11/site-packages
+lib64
+pyvenv.cfg
