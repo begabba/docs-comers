@@ -395,8 +395,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#your-first-event" class="md-nav__link">
-    Your first event
+  <a href="#creating-your-first-event" class="md-nav__link">
+    Creating your first event
   </a>
   
 </li>
@@ -716,8 +716,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#your-first-event" class="md-nav__link">
-    Your first event
+  <a href="#creating-your-first-event" class="md-nav__link">
+    Creating your first event
   </a>
   
 </li>
@@ -760,7 +760,7 @@ Sheet-to-comers is currently <strong>only available for Windows</strong> (64-bit
 <strong>TODO: Insert Google Drive link</strong></p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
 <p>After your first run of Comers-to-sheet a file named <code>config.cfg</code> will be created.
-<code>config.cfg</code> contains the following settings:</p>
+Open <code>config.cfg</code> in <code>Notepad</code> or any other text editor to change the settings.</p>
 <table>
 <thead>
 <tr>
@@ -785,38 +785,57 @@ Sheet-to-comers is currently <strong>only available for Windows</strong> (64-bit
 <td>headless</td>
 <td>If set to <code>False</code> the browser is visible while creating the event</td>
 </tr>
+<tr>
+<td>post_url</td>
+<td>Don't mess with this!</td>
+</tr>
 </tbody>
 </table>
-<h2 id="your-first-event">Your first event<a class="headerlink" href="#your-first-event" title="Permanent link">&para;</a></h2>
+<h2 id="creating-your-first-event">Creating your first event<a class="headerlink" href="#creating-your-first-event" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Before starting make sure to run <code>Validate</code> from <code>AwesomeBar</code> in COMERS OVERVIEW.</li>
+<li>Before starting make sure to run <code>Validate</code> from <code>AwesomeBar</code> in <a href="https://docs.google.com/spreadsheets/d/1a2BTf9VfGQlScm0UR8xB2wzFnm_yhQC8VP4iIygmMeM/edit?ts=5c07f01d#gid=1416145104">COMERS OVERVIEW</a>.</li>
 <li>
 <dl>
 <dt>Doubleclick <strong>sheet-to-comers.exe</strong> to start Comers-to-sheet in a terminal window.</dt>
 <dd>First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver. You can change the user credentials later by editing <code>config.cfg</code> in Notepad.</dd>
 </dl>
 </li>
+<li><strong>Make sure nobody else is using the login credentials in Comers!</strong></li>
 <li>
 <dl>
 <dt>Select the event by typing the event PRODUCT_CODE</dt>
 <dd>Only events with <strong>STATUS</strong> set to <strong>READY</strong> will be available.</dd>
 </dl>
 </li>
-<li>USE_TEST_SITE?
-  This let you choose to create the event in https://testadminang.comers.se instead of https://adminang.comers.se.
-  https://testadminang.comers.se is a mirror of our Comers and is useful for testing things out without risking breaking anything.
-  Always create the event with USE_TEST_SITE "Yes" first. This allows you to find any remaining issue with the event without having to clean up Comers afterwards.</li>
+<li>
+<dl>
+<dt>USE_TEST_SITE?</dt>
+<dd>Always create the event with USE_TEST_SITE <strong>"Yes"</strong> first.<br />
+Answering <strong>"Yes"</strong> will use <a href="https://testadminang.comers.se">testadminang.comers.se</a> instead of <a href="https://adminang.comers.se">adminang.comers.se</a></dd>
+</dl>
+</li>
 </ul>
-<p>Any error message Comers outputs will be shown in the terminal.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>testadminang.comers.se is a mirror of our Comers and is useful for testing things without the risk of breaking something.<br />
+This allows you to find any remaining issue with the event without having to clean up Comers afterwards.<br />
+<strong>Any error message Comers outputs will be shown in the terminal. Be sure to read it!</strong></p>
+</div>
+<p>Now the clicking starts. Do not touch the computer while this is running.<br />
+If this process is interrupted at any time you'll have to either:<br />
+1. Complete the process manually by following this <a href="https://begabba.github.io/docs-comers/guides/create-a-new-event/00.%20Introduction/">guide</a><br />
+2. Remove any traces of the created event from Comers and run Comers-to-sheet again.  </p>
+<p>When the process is finished <strong>❇ Done! ❇</strong> is shown together with some remaining tasks.</p>
+<p><img alt="img" src="../images/done.png" /></p>
 <h2 id="creating-summer-volunteer-camps">Creating summer volunteer camps<a class="headerlink" href="#creating-summer-volunteer-camps" title="Permanent link">&para;</a></h2>
 <p>The maximum length of an Product price in Comers is 28 days. This is shorter than the "ALL SUMMER"-camps used for volunteers.
-The workaround is to use the USE_SUMMERCAMP_TWEAKS setting for <strong>all</strong> summer volunteer camps.</p>
-<p>Enabling USE_SUMMERCAMP_TWEAKS has two major differences:</p>
+The workaround is to set <code>is_summer_camp</code> to <code>True</code> in <code>config.cfg</code> for <strong>all</strong> summer volunteer camps.</p>
+<p>Enabling <code>is_summer_camp</code> has two major differences:</p>
 <ul>
 <li>
 <dl>
 <dt>No Product capacity is created.</dt>
-<dd>Instead it's suggested that you manually create <code>Freesale</code> capacity for VOLPOOL once for the whole summer . Set the capacity starting date to the <em>start of the first event</em> and capacity end date to the <em>end of the last event</em>.</dd>
+<dd>Instead it's suggested that you manually create <code>Freesale</code> capacity for <code>VOLPOOL</code> once for the whole summer . Set the capacity starting date to the <em>start of the first event</em> and capacity end date to the <em>end of the last event</em>.</dd>
 </dl>
 </li>
 <li>
@@ -829,22 +848,13 @@ The workaround is to use the USE_SUMMERCAMP_TWEAKS setting for <strong>all</stro
 <p><img alt="img" src="../images/use_summercamp_tweaks.png" /></p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-</div>
 <p>PRICE_VOLPOOL must be greater than <strong>0</strong> for Comers-to-sheet to work.
 You can always massage the Arrangement/Product price after the event is created.</p>
+</div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
-<p>In case Comers-to-sheet encounters a unexpected issue a scary error message will be shown.</p>
-<p>In case this process is interupted in any way you'll have to either: │
-│</p>
-<ol>
-<li>Finish the process manually by following this guide: │
-   https://begabba.github.io/docs-comers/guides/create-a-new-event/00.%20Introduction/ │</li>
-<li>
-<p>Remove any traces of the created event from Comers and run Comers-to-sheet again. │</p>
-</li>
-<li>
-<p>Limitations (image, discounts, )</p>
-</li>
+<p>In case Comers-to-sheet encounters a unexpected issue a scary error message will be shown. This is very useful for debugging what's going on.</p>
+<ul>
+<li>Limitations (image, discounts, )</li>
 <li>USE_SUMMERCAMP_TWEAKS</li>
 <li>USE_HEADLESS</li>
 <li>
@@ -853,7 +863,7 @@ You can always massage the Arrangement/Product price after the event is created.
 <li>
 <p>Troubleshooting.</p>
 </li>
-</ol>
+</ul>
 
 
 

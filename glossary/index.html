@@ -642,7 +642,7 @@
 
 
 <h1 id="glossary">Glossary<a class="headerlink" href="#glossary" title="Permanent link">&para;</a></h1>
-<p>This chapter tries explains some of the concepts and terminology used in the guides.</p>
+<p>This chapter explains some of the concepts and terminology used in the guides.</p>
 <dl>
 <dt><code>Event</code></dt>
 <dd>An bookable event in Comers consists of a connected <code>Project</code>, <code>Arrangement</code> &amp; <code>Package</code>
@@ -656,14 +656,14 @@ It also handles the presentation of the Package in the booking flow (description
 Arrangements always has the same starting and ending date.</dd>
 <dt><code>Package</code></dt>
 <dd>Package determines the bookable accommodations for the event. When events overlap the <code>Price type</code> is used define the price for the specific event.</dd>
-<dt><code>COMERS OVERVIEW</code></dt>
-<dd>COMERS OVERVIEW is a Spreadsheet originally used to aid in creating event events for Comers. </dd>
 <dt><code>Products</code></dt>
 <dd>Products is Comers means beds for Ängsbacka. Is also referred to as Hotel. Products have a capacity &amp; price just like Arrangements. Product capacity is set directly on the product but the price is set on products with names starting with "TEMPLATE_" (for example TEMPLATE_BEINDO).</dd>
 <dt><code>Capacity</code></dt>
 <dd>Both Arrangements &amp; Products have capacity. Capacity decides the number of individuals (not infants) it can hold. <code>Allotment</code> means limited space and <code>Freesale</code> means unlimited. Adding capacity to Products means they're available for all events during that period. <strong>VOLPOOL</strong> capacity should always be <code>Freesale</code>.</dd>
 <dt><code>Price Type</code>:</dt>
 <dd><code>Price Types</code> are an identifier used in <code>Packages</code> to tell Comers which products belong to which event. It's important that the <code>Price Type</code> is unique for each overlapping event. <code>AwesomeBar</code>'s Validate feature makes sure this is the case. Use <code>AB[0-9]</code> for participant events, <code>V[01-22]</code> for volunteer events and <code>LT0</code> for long term (renters/guests) events.</dd>
+<dt><code>COMERS OVERVIEW</code></dt>
+<dd><a href="https://docs.google.com/spreadsheets/d/1a2BTf9VfGQlScm0UR8xB2wzFnm_yhQC8VP4iIygmMeM/edit?ts=5c07f01d#gid=1416145104">COMERS OVERVIEW</a> is a Spreadsheet originally used to aid in creating event events for Comers.</dd>
 <dt><code>AwesomeBar</code></dt>
 <dd>This a set of features that runs in <code>COMERS OVERVIEW</code>. These can be accessed via the Ängsbacka menu. </dd>
 </dl>
@@ -698,6 +698,8 @@ Arrangements always has the same starting and ending date.</dd>
 <dd>The feature <em>Validate</em> runs lots of tests on the selected events. It stops running on the first failed test. Therefor it's important that all tests are fixed before continuing with Sheet-to-comers.</dd>
 <dt><code>Sheet-to-comers</code></dt>
 <dd>Automated software for creating events. <a href="../guides/sheet-to-comers/"><strong>Read More</strong></a></dd>
+<dt><code>Comers-to-sheet</code></dt>
+<dd>Automated software extracting booking information from Comers and sends it to <code>COMERS OVERVIEW</code>.</dd>
 </dl>
 
 
