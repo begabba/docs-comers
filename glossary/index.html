@@ -343,6 +343,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../guides/sheet-to-comers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sheet-to-comers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../guides/transfer-booking-to-another-event/" class="md-nav__link">
         
   
@@ -372,10 +392,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
         
           
-          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -386,8 +406,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
             <span class="md-nav__icon md-icon"></span>
             Create a new event
           </label>
@@ -628,20 +648,20 @@
 <dd>An bookable event in Comers consists of a connected <code>Project</code>, <code>Arrangement</code> &amp; <code>Package</code>
 Without execeptions we <em>always</em> use the exact same name for both <code>Project</code>, <code>Arrangement</code> &amp; <code>Package</code>. Otherwise we're doomed.</dd>
 <dt><code>Project</code></dt>
-<dd>A Project connects the Arrangement and Package together. A Project's <code>Project Number</code> is used as <code>resultat enhet</code> in Visma.
+<dd>A Project connects the Arrangement and Package together. A Project's <code>Project Number</code> is used as <code>resultat enhet</code> in Visma/Fortnox.
 Projects can be used to filter searches via <em>Arrival list</em> or <em>Search bookings</em>.</dd>
 <dt><code>Arrangement</code></dt>
 <dd>Arrangements contains the price &amp; capacity for the Arrangement part of a booking.
 It also handles the presentation of the Package in the booking flow (description &amp; image).
-Arrangements has the same starting and ending date.</dd>
+Arrangements always has the same starting and ending date.</dd>
 <dt><code>Package</code></dt>
-<dd>Package determines the bookable accommodations for the event. When events overlap the <code>Price type</code> is used define the price for the the specific event.</dd>
+<dd>Package determines the bookable accommodations for the event. When events overlap the <code>Price type</code> is used define the price for the specific event.</dd>
 <dt><code>COMERS OVERVIEW</code></dt>
 <dd>COMERS OVERVIEW is a Spreadsheet originally used to aid in creating event events for Comers. </dd>
 <dt><code>Products</code></dt>
-<dd>Products is Comers means beds for Ängsbacka. Is also refered to as Hotel. Products have a capacity &amp; price just like Arrangements</dd>
+<dd>Products is Comers means beds for Ängsbacka. Is also referred to as Hotel. Products have a capacity &amp; price just like Arrangements. Product capacity is set directly on the product but the price is set on products with names starting with "TEMPLATE_" (for example TEMPLATE_BEINDO).</dd>
 <dt><code>Capacity</code></dt>
-<dd>Both Arrangements &amp; Products have capacity. Capacity decides the number of individuals (not infants) it can hold. <code>Allotment</code> means limited space and <code>Freesale</code> means unlimited. Adding capacity to Products means they're available for all events during that period.</dd>
+<dd>Both Arrangements &amp; Products have capacity. Capacity decides the number of individuals (not infants) it can hold. <code>Allotment</code> means limited space and <code>Freesale</code> means unlimited. Adding capacity to Products means they're available for all events during that period. <strong>VOLPOOL</strong> capacity should always be <code>Freesale</code>.</dd>
 <dt><code>Price Type</code>:</dt>
 <dd><code>Price Types</code> are an identifier used in <code>Packages</code> to tell Comers which products belong to which event. It's important that the <code>Price Type</code> is unique for each overlapping event. <code>AwesomeBar</code>'s Validate feature makes sure this is the case. Use <code>AB[0-9]</code> for participant events, <code>V[01-22]</code> for volunteer events and <code>LT0</code> for long term (renters/guests) events.</dd>
 <dt><code>AwesomeBar</code></dt>
@@ -673,6 +693,12 @@ Arrangements has the same starting and ending date.</dd>
 </tr>
 </tbody>
 </table>
+<dl>
+<dt><code>AwesomeBar &gt; Validate</code></dt>
+<dd>The feature <em>Validate</em> runs lots of tests on the selected events. It stops running on the first failed test. Therefor it's important that all tests are fixed before continuing with Sheet-to-comers.</dd>
+<dt><code>Sheet-to-comers</code></dt>
+<dd>Automated software for creating events. <a href="../guides/sheet-to-comers/"><strong>Read More</strong></a></dd>
+</dl>
 
 
 
