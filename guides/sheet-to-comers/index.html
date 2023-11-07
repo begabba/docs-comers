@@ -413,6 +413,19 @@
     Troubleshooting
   </a>
   
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comers-to-sheet-fails-to-start" class="md-nav__link">
+    Comers-to-sheet fails to start
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -734,6 +747,19 @@
     Troubleshooting
   </a>
   
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comers-to-sheet-fails-to-start" class="md-nav__link">
+    Comers-to-sheet fails to start
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -755,12 +781,12 @@
 <p>Sheet-to-comers is a software that creates events in Comers from data found in COMERS OVERVIEW.
 It does this by opening a browser and clicking the necessary buttons in Comers for you.
 Sheet-to-comers is currently <strong>only available for Windows</strong> (64-bit) computers.</p>
+<p>You'll need to be familiar with how to <a href="../create-a-new-event/00.%20Introduction/">Create new events</a> in Comers.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
 <p>Unpack <a href="">this</a> archive on your Windows computer.<br />
-<strong>TODO: Insert Google Drive link</strong></p>
+<strong>TODO: Insert Google Drive download link</strong></p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
-<p>After your first run of Comers-to-sheet a file named <code>config.cfg</code> will be created.
-Open <code>config.cfg</code> in <code>Notepad</code> or any other text editor to change the settings.</p>
+<p>After your first run of Comers-to-sheet a file named <code>config.cfg</code> will be created.</p>
 <table>
 <thead>
 <tr>
@@ -791,6 +817,7 @@ Open <code>config.cfg</code> in <code>Notepad</code> or any other text editor to
 </tr>
 </tbody>
 </table>
+<p>Open <code>config.cfg</code> in <code>Notepad</code> or any other text editor to change the settings.</p>
 <h2 id="creating-your-first-event">Creating your first event<a class="headerlink" href="#creating-your-first-event" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Before starting make sure to run <code>Validate</code> from <code>AwesomeBar</code> in <a href="https://docs.google.com/spreadsheets/d/1a2BTf9VfGQlScm0UR8xB2wzFnm_yhQC8VP4iIygmMeM/edit?ts=5c07f01d#gid=1416145104">COMERS OVERVIEW</a>.</li>
@@ -811,20 +838,20 @@ Open <code>config.cfg</code> in <code>Notepad</code> or any other text editor to
 <dl>
 <dt>USE_TEST_SITE?</dt>
 <dd>Always create the event with USE_TEST_SITE <strong>"Yes"</strong> first.<br />
-Answering <strong>"Yes"</strong> will use <a href="https://testadminang.comers.se">testadminang.comers.se</a> instead of <a href="https://adminang.comers.se">adminang.comers.se</a></dd>
+  Answering <strong>"Yes"</strong> will use <a href="https://testadminang.comers.se">testadminang.comers.se</a> instead of <a href="https://adminang.comers.se">adminang.comers.se</a>
+  !!! Note
+  testadminang.comers.se is a mirror of our Comers and is useful for testing things without the risk of breaking something.<br />
+   This allows you to find any remaining issue with the event without having to clean up Comers afterwards.<br />
+<strong>Any error message Comers outputs will be shown in the terminal. Be sure to read it!</strong></dd>
 </dl>
 </li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>testadminang.comers.se is a mirror of our Comers and is useful for testing things without the risk of breaking something.<br />
-This allows you to find any remaining issue with the event without having to clean up Comers afterwards.<br />
-<strong>Any error message Comers outputs will be shown in the terminal. Be sure to read it!</strong></p>
-</div>
 <p>Now the clicking starts. Do not touch the computer while this is running.<br />
-If this process is interrupted at any time you'll have to either:<br />
-1. Complete the process manually by following this <a href="https://begabba.github.io/docs-comers/guides/create-a-new-event/00.%20Introduction/">guide</a><br />
-2. Remove any traces of the created event from Comers and run Comers-to-sheet again.  </p>
+If this process is interrupted at any time you'll have to either:</p>
+<ol>
+<li>Complete the process manually by following this <a href="https://begabba.github.io/docs-comers/guides/create-a-new-event/00.%20Introduction/">guide</a></li>
+<li>Remove any traces of the created event from Comers and run Comers-to-sheet again.</li>
+</ol>
 <p>When the process is finished <strong>❇ Done! ❇</strong> is shown together with some remaining tasks.</p>
 <p><img alt="img" src="../images/done.png" /></p>
 <h2 id="creating-summer-volunteer-camps">Creating summer volunteer camps<a class="headerlink" href="#creating-summer-volunteer-camps" title="Permanent link">&para;</a></h2>
@@ -848,22 +875,13 @@ The workaround is to set <code>is_summer_camp</code> to <code>True</code> in <co
 <p><img alt="img" src="../images/use_summercamp_tweaks.png" /></p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
+</div>
 <p>PRICE_VOLPOOL must be greater than <strong>0</strong> for Comers-to-sheet to work.
 You can always massage the Arrangement/Product price after the event is created.</p>
-</div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
-<p>In case Comers-to-sheet encounters a unexpected issue a scary error message will be shown. This is very useful for debugging what's going on.</p>
-<ul>
-<li>Limitations (image, discounts, )</li>
-<li>USE_SUMMERCAMP_TWEAKS</li>
-<li>USE_HEADLESS</li>
-<li>
-<p>Interruption</p>
-</li>
-<li>
-<p>Troubleshooting.</p>
-</li>
-</ul>
+<h3 id="comers-to-sheet-fails-to-start">Comers-to-sheet fails to start<a class="headerlink" href="#comers-to-sheet-fails-to-start" title="Permanent link">&para;</a></h3>
+<p>Remove all files and folders except <em>comers-to-sheet.exe</em> and run again.
+This should reset everything and force Comers-to-sheet to reinstall it's dependencies.</p>
 
 
 
