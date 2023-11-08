@@ -854,7 +854,7 @@ If this process is interrupted at any time you'll have to either:</p>
 <p>Open <code>config.cfg</code> in <code>Notepad</code> or any other text editor to change the settings.</p>
 <h2 id="creating-summer-volunteer-camps">Creating summer volunteer camps<a class="headerlink" href="#creating-summer-volunteer-camps" title="Permanent link">&para;</a></h2>
 <p>The maximum length of an Product price in Comers is 28 days. This is shorter than the "ALL SUMMER"-camps used for volunteers.
-The workaround is to set <code>is_summer_camp</code> to <code>True</code> in <code>config.cfg</code> for <strong>all</strong> summer volunteer camps.</p>
+The workaround is to set <code>is_summer_camp</code> to <code>True</code> in <code>config.cfg</code> before creating any summer volunteer camps.</p>
 <p>Enabling <code>is_summer_camp</code> has two major differences:</p>
 <ul>
 <li>
@@ -866,20 +866,24 @@ The workaround is to set <code>is_summer_camp</code> to <code>True</code> in <co
 <li>
 <dl>
 <dt>Sheet-to-comers creates <em>Product price</em> that uses <strong>per-day</strong> price instead of <strong>total</strong> price.</dt>
-<dd>Any remaining difference is put on Arrangement price. This might lead to some weird looking prices but the total price will be the same.</dd>
+<dd>The <em>Product price</em> needs to be <strong>0</strong> for summer camp events.</dd>
 </dl>
 </li>
 </ul>
-<p><img alt="img" src="../images/use_summercamp_tweaks.png" /></p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>PRICE_VOLPOOL must be greater than <strong>0</strong> for Comers-to-sheet to work.
-You can always massage the Arrangement/Product price after the event is created.</p>
-</div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
 <h3 id="comers-to-sheet-fails-to-start">Comers-to-sheet fails to start<a class="headerlink" href="#comers-to-sheet-fails-to-start" title="Permanent link">&para;</a></h3>
-<p>Remove all files and folders except <em>comers-to-sheet.exe</em> and run again.
+<p>Remove all files and reinstall Comers-to-sheet.
 This should reset everything and force Comers-to-sheet to reinstall it's dependencies.</p>
+<!-- Next you could try to run Comers-to-sheet from a Windows terminal. -->
+<!-- * TODO: Screenshot -->
+<!-- * Right-click in Comers-to-sheet folder -->
+<!-- * Click open ... -->
+<dl>
+<dt><!-- * Write `comers-to-sheet.exe` and press enter --></dt>
+<dd>
+<p>This will prevent the window from automatically closing and give the opportunity to read any error message.</p>
+</dd>
+</dl>
 
 
 
