@@ -778,6 +778,14 @@
 
 
 <h1 id="sheet-to-comers">Sheet-to-comers<a class="headerlink" href="#sheet-to-comers" title="Permanent link">&para;</a></h1>
+<p>TODO: förklara PRODUCT_CODE input
+TODO: info.logger supplements done + link/status done
+TODO: magic wand references
+TODO: cleanup folder (remove zip, move browser)
+TODO: Fix integer conversion, don't assume type
+TODO: add "one discount code for all summer" in todo when using summercamp
+TODO: Simplify error: Could not create product with product code:</p>
+<p>TOOD: filter vol event on summercamp tweak</p>
 <p>Sheet-to-comers is a software that creates events in Comers from data found in COMERS OVERVIEW.
 It does this by opening a browser and clicking the necessary buttons in Comers for you.
 Sheet-to-comers is currently <strong>only available for Windows</strong> (64-bit) computers.</p>
@@ -798,7 +806,9 @@ If this process is interrupted at any time you'll have to either:</p>
 <dd>First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver. You can change the user credentials later by editing <code>config.cfg</code> in Notepad.</dd>
 </dl>
 </li>
-<li><strong>Make sure nobody else is using the login credentials in Comers!</strong></li>
+<li>Windows Defender &gt; mer info &gt; Kör ändå</li>
+<li><strong>Make sure nobody else is currently using the login credentials in Comers!</strong></li>
+<li></li>
 <li>
 <dl>
 <dt>Select the event by typing the event PRODUCT_CODE</dt>
@@ -866,10 +876,16 @@ The workaround is to set <code>is_summer_camp</code> to <code>True</code> in <co
 <li>
 <dl>
 <dt>Sheet-to-comers creates <em>Product price</em> that uses <strong>per-day</strong> price instead of <strong>total</strong> price.</dt>
-<dd>The <em>Product price</em> needs to be <strong>0</strong> for summer camp events.</dd>
+<dd>Any remaining difference is put on Arrangement price. This might lead to some weird looking prices but the total price will be the same.</dd>
 </dl>
 </li>
 </ul>
+<p><img alt="img" src="../images/use_summercamp_tweaks.png" /></p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+</div>
+<p>PRICE_VOLPOOL must be greater than <strong>0</strong> for Comers-to-sheet to work.
+You can always massage the Arrangement/Product price after the event is created.</p>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
 <h3 id="comers-to-sheet-fails-to-start">Comers-to-sheet fails to start<a class="headerlink" href="#comers-to-sheet-fails-to-start" title="Permanent link">&para;</a></h3>
 <p>Remove all files and reinstall Comers-to-sheet.
