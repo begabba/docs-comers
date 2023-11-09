@@ -18,7 +18,7 @@ skinparam wrapWidth 270
 </style>
 
 title ==COMERS OVERVIEW\n<size:12>//infrastructure//</size>
-footer **January 2022**
+footer **November 2023**
 legend right
 |= Lines|= Type |
 | Dashed | Python |
@@ -48,26 +48,26 @@ rectangle "=SwedbankPay\nPayment provider" as SWEDBANKPAY
 rectangle "=ALLERGIES\nGoogle Form" as ALLERGIES
 rectangle "=TODAY\nDiets screen\nin Kitchen" as TODAY
 rectangle "=GUESTS\nAdd guest diets" as GUESTS
-node SERVER
+node "Comers-to-sheet" as SERVER
 $Sheet(DIETS,DIETS,Everybodys diets)
-$Sheet(SIE,COMERS-SIE-VISMA,"Stores sie-files from Comers")
+' $Sheet(SIE,COMERS-SIE-VISMA,"Stores sie-files from Comers")
 $Sheet(WCD,WC DATABASE,Working Community)
-$Sheet(THESHEET,THE SHEET,Volunteer administration tool)
+'$Sheet(THESHEET,THE SHEET,Volunteer administration tool)
 note right
   * This was used 2021 but will be deprecated.
 end note
 actor "Customer" as CUSTOMER
-actor "Malin" as MALIN
-node "Erik" as ERIK
+actor "Product Manager" as MALIN
+node "Sheet-to-comers" as ERIK
 
 ' Links
 CUSTOMER -right-> SWEDBANKPAY
 SWEDBANKPAY -down-> COMERS
 COMERS -.right.> SERVER: Bookings\nevery 10\nminutes
-SWEDBANKPAY -.right.> SERVER: Payments\nevery 12\nhours
+' SWEDBANKPAY -.right.> SERVER: Payments\nevery 12\nhours
 SERVER .down.> BOOKINGS
 SERVER .> PAYMENTS
-SERVER .up.> SIE
+' SERVER .up.> SIE
 BOOKINGS -down-> EVENTS
 BOOKINGS -down-> EMAILS
 BOOKINGS -right-> DIETS: Participant\ndiets
@@ -79,23 +79,13 @@ LINK -left- SETUP
 MALIN -[dotted]> SETUP
 SETUP .up.> ERIK
 ERIK .> COMERS
-BOOKINGS -down--> THESHEET
+'BOOKINGS -down--> THESHEET
 
 note left of ERIK
-*Several tools to automate Comers.
-*Most important is the tools to create event and to cleanup cancelled events. 
-*Uses Selenium to click buttons in Comers.
-..Maintenance..
-*The Selenium driver needs to be updated when Google Chrome releases a new major version. See Troubleshooting for guide.
+*Sheet-to-comers is a software to automate event creation in Comers. Read more under Guides > Sheet-to-comers
 end note
 note right of SERVER
-*Green computer in wardrobe office
-*Known as **"GS"** or **192.168.7.90** on the network
-*Uses Selenium to export information from Comers to Google Sheets
-*Runs //py_autorun.py// via //Task scheduler// at startup
-*Reboots every night (01.00)
-..Maintenance..
-*Needs to be always on & connected
-*The Selenium driver needs to be updated when Google Chrome releases a new major version. See Troubleshooting for guide.
+*Comers-to-sheet checks Comers for changes every 10 minutes. When changed bookings are found, new/changed bookings are sent to COMERS OVERVIEW.
+*Comers-to-sheet runs 24/7 from a computer that needs to be always on and connected to internet.
 end note
 @enduml
