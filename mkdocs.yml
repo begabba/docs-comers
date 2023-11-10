@@ -1,10 +1,10 @@
 site_name: Comers Documentation
 site_description: "Comers Documentation"
-site_author: "Erik"
+site_author: ""
 site_url: ""
 strict: false
 # repo_name: "docs-comers"
-# repo_url: "https://github.com/gitx-xx/docs-comers/"
+# repo_url: "https://github.com/begabba/docs-comers/"
 
 theme:
   name: "material"
@@ -29,7 +29,7 @@ plugins:
   - search:
   - build_plantuml:
       render: "server" # or "local" for local rendering
-      bin_path: "/usr/local/bin/plantuml" # ignored when render: server
+      bin_path: "/usr/bin/plantuml" # ignored when render: server
       server: "http://www.plantuml.com/plantuml" # offical plantuml server
       output_format: "svg" # or "png"
       diagram_root: "docs/diagrams" # should reside under docs_dir
