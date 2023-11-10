@@ -1,15 +1,8 @@
 # Sheet-to-comers
 
-DONE: förklara PRODUCT_CODE input
-DONE: info.logger supplements done + link/status done
-DONE: Fix integer conversion, don't assume type
-TODO: add "one discount code for all summer" in todo when using summercamp
-TODO: magic wand references
-TODO: rename is_summer_camp to USE_SUMMERCAMP_TWEAKS
-TODO: cleanup folder (remove zip, move browser)
-TODO: Simplify error: Could not create product with product code:
-
-TOOD: filter vol event on summercamp tweak
+<!-- TODO: rename is_summer_camp to USE_SUMMERCAMP_TWEAKS -->
+<!-- TODO: cleanup folder (remove zip, move browser) -->
+<!-- TODO: Simplify error: Could not create product with product code: -->
 
 Sheet-to-comers is a software that creates events in Comers from data found in COMERS OVERVIEW.
 It does this by opening a browser and clicking the necessary buttons in Comers for you.
@@ -29,10 +22,9 @@ You'll find the latest version here: [sheet-to-comers.zip](https://drive.google.
 
 - Before starting make sure to run `Validate` from `AwesomeBar` in [COMERS OVERVIEW](https://docs.google.com/spreadsheets/d/1a2BTf9VfGQlScm0UR8xB2wzFnm_yhQC8VP4iIygmMeM/edit?ts=5c07f01d#gid=1416145104).
 - Doubleclick **sheet-to-comers.exe** to start Comers-to-sheet in a terminal window.
-  : First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver. You can change the user credentials later by editing `config.cfg` in Notepad.
-- Windows Defender > mer info > Kör ändå
-- **Make sure nobody else is currently using the login credentials in Comers!**
-- 
+- If a *Windows Defender* windows pops up, click `More info` and `Run anyway`.
+  : First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver.
+    **Make sure nobody else is currently using the login credentials in Comers!**
 - Select the event by typing the event PRODUCT_CODE
   : Only events with **STATUS** set to **READY** will be available.
 - USE_TEST_SITE?
@@ -44,7 +36,7 @@ You'll find the latest version here: [sheet-to-comers.zip](https://drive.google.
 
 Now the clicking starts. Do not touch the computer while this is running.  
 
-When the process is finished **❇ Done! ❇** is shown together with some remaining tasks.
+When the magic wand has finished some remaining tasks is shown. These task you'll need to do manually.
 
 ![img](images/done.png)
 
@@ -64,12 +56,21 @@ Open `config.cfg` in `Notepad` or any other text editor to change the settings.
 
 ## Creating summer volunteer camps
 
-The maximum length of an Product price in Comers is 28 days. This is shorter than the "ALL SUMMER"-camps used for volunteers.
+I'm sorry. Prepare for confusion.
+The maximum length of an Product price in Comers is 28 days. If the event is longer than that we'll need to use per-day pricing instead.
 The workaround is to set `is_summer_camp` to `True` in `config.cfg` before creating any of the summer volunteer camps.
 
+**Short version:**
+1. Set the price for `PRICE_VOLPOOL` to exactly `1` in COMERS OVERVIEW.
+2. Set `is_summer_camp` to `True` in `config.cfg`.
+3. Create the summer events.
+4. Manually create `Freesale` product capacity from _start of first event_ til _end of the last event_.
+5. Skip reading the rest of this section.
+
 !!! Important
-    PRICE_VOLPOOL must be greater than **0** for Comers-to-sheet to work.
-    You can always massage the Arrangement/Product price after the event is created.
+    `PRICE_VOLPOOL` must be greater than `0` for Comers-to-sheet to work when using `is_summer_camp`.
+    If `PRICE_VOLPOOL` is set to `1`, then Comers-to-sheet will set the price in Comers to `0`.
+    If `PRICE_VOLPOOL` is set to any number higher than `1` it will calculate the per-day price based on the event duration.
 
 Enabling `is_summer_camp` has two major differences:
 
@@ -78,6 +79,7 @@ Enabling `is_summer_camp` has two major differences:
 
 - Sheet-to-comers creates _Product price_ that uses **per-day** price instead of **total** price.
   : Any remaining difference is put on Arrangement price. This might lead to some weird looking prices but the total price will be the same.
+    You can always massage the Arrangement/Product price after the event is created.
 
 ![img](images/use_summercamp_tweaks.png)
 
