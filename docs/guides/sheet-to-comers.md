@@ -18,15 +18,18 @@ If this process is interrupted at any time you'll have to either:
 
 You'll find the latest version here: [sheet-to-comers.zip](https://drive.google.com/drive/folders/1UXP9iwGZBtSQwa5v9T6ISEFM0oH853NI?usp=sharing)
 
+!!! Important
+    Sheet-to-comers requires a Comers account with *Administration* rights.
+    Make sure nobody is using this account while Sheet-to-comers is running.
+
 ## Creating your first event
 
 - Before starting make sure to run `Validate` from `AwesomeBar` in [COMERS OVERVIEW](https://docs.google.com/spreadsheets/d/1a2BTf9VfGQlScm0UR8xB2wzFnm_yhQC8VP4iIygmMeM/edit?ts=5c07f01d#gid=1416145104).
 - Doubleclick **sheet-to-comers.exe** to start Comers-to-sheet in a terminal window.
 - If a *Windows Defender* windows pops up, click `More info` and `Run anyway`.
   : First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver.
-    **Make sure nobody else is currently using the login credentials in Comers!**
 - Select the event by typing the event PRODUCT_CODE
-  : Only events with **STATUS** set to **READY** will be available.
+  : Only events with **STATUS** set to **READY** in COMERS OVERVIEW will be available.
 - USE_TEST_SITE?
   : Always create the event with USE_TEST_SITE **"Yes"** first.  
   Answering **"Yes"** will use [testadminang.comers.se](https://testadminang.comers.se) instead of [adminang.comers.se](https://adminang.comers.se)  
@@ -56,16 +59,16 @@ Open `config.cfg` in `Notepad` or any other text editor to change the settings.
 
 ## Creating summer volunteer camps
 
-I'm sorry. Prepare for confusion.
+I'm sorry. Prepare for confusion.  
 The maximum length of an Product price in Comers is 28 days. If the event is longer than that we'll need to use per-day pricing instead.
 The workaround is to set `is_summer_camp` to `True` in `config.cfg` before creating any of the summer volunteer camps.
 
 **Short version:**
-1. Set the price for `PRICE_VOLPOOL` to exactly `1` in COMERS OVERVIEW.
-2. Set `is_summer_camp` to `True` in `config.cfg`.
-3. Create the summer events.
-4. Manually create `Freesale` product capacity from _start of first event_ til _end of the last event_.
-5. Skip reading the rest of this section.
+1. Set the price for `PRICE_VOLPOOL` to exactly `1` in COMERS OVERVIEW.  
+2. Set `is_summer_camp` to `True` in `config.cfg`.  
+3. Create the summer events.  
+4. Manually create `Freesale` product capacity from _start of first event_ til _end of the last event_.  
+5. Skip reading the rest of this section.  
 
 !!! Important
     `PRICE_VOLPOOL` must be greater than `0` for Comers-to-sheet to work when using `is_summer_camp`.
