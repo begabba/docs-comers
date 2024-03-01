@@ -1,9 +1,5 @@
 # Sheet-to-comers
 
-<!-- TODO: rename is_summer_camp to USE_SUMMERCAMP_TWEAKS -->
-<!-- TODO: cleanup folder (remove zip, move browser) -->
-<!-- TODO: Simplify error: Could not create product with product code: -->
-
 Sheet-to-comers is a software that creates events in Comers from data found in COMERS OVERVIEW.
 It does this by opening a browser and clicking the necessary buttons in Comers for you.
 Sheet-to-comers is currently **only available for Windows** (64-bit) computers.
