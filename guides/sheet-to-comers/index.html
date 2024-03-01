@@ -776,10 +776,6 @@
 
 
 <h1 id="sheet-to-comers">Sheet-to-comers<a class="headerlink" href="#sheet-to-comers" title="Permanent link">&para;</a></h1>
-<!-- TODO: rename is_summer_camp to USE_SUMMERCAMP_TWEAKS -->
-<!-- TODO: cleanup folder (remove zip, move browser) -->
-<!-- TODO: Simplify error: Could not create product with product code: -->
-
 <p>Sheet-to-comers is a software that creates events in Comers from data found in COMERS OVERVIEW.
 It does this by opening a browser and clicking the necessary buttons in Comers for you.
 Sheet-to-comers is currently <strong>only available for Windows</strong> (64-bit) computers.</p>
@@ -791,6 +787,11 @@ If this process is interrupted at any time you'll have to either:</p>
 </ol>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
 <p>You'll find the latest version here: <a href="https://drive.google.com/drive/folders/1UXP9iwGZBtSQwa5v9T6ISEFM0oH853NI?usp=sharing">sheet-to-comers.zip</a></p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Sheet-to-comers requires a Comers account with <em>Administration</em> rights.
+Make sure nobody is using this account while Sheet-to-comers is running.</p>
+</div>
 <h2 id="creating-your-first-event">Creating your first event<a class="headerlink" href="#creating-your-first-event" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Before starting make sure to run <code>Validate</code> from <code>AwesomeBar</code> in <a href="https://docs.google.com/spreadsheets/d/1a2BTf9VfGQlScm0UR8xB2wzFnm_yhQC8VP4iIygmMeM/edit?ts=5c07f01d#gid=1416145104">COMERS OVERVIEW</a>.</li>
@@ -798,14 +799,13 @@ If this process is interrupted at any time you'll have to either:</p>
 <li>
 <dl>
 <dt>If a <em>Windows Defender</em> windows pops up, click <code>More info</code> and <code>Run anyway</code>.</dt>
-<dd>First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver.
-<strong>Make sure nobody else is currently using the login credentials in Comers!</strong></dd>
+<dd>First run of Sheet-to-comers will ask you for Comers login credentials and download necessary Chrome/Chromedriver.</dd>
 </dl>
 </li>
 <li>
 <dl>
 <dt>Select the event by typing the event PRODUCT_CODE</dt>
-<dd>Only events with <strong>STATUS</strong> set to <strong>READY</strong> will be available.</dd>
+<dd>Only events with <strong>STATUS</strong> set to <strong>READY</strong> in COMERS OVERVIEW will be available.</dd>
 </dl>
 </li>
 <li>
